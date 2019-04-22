@@ -40,6 +40,10 @@ The aim of this computer, called the EDVAC, was to solve non-linear partial diff
 * Turing machine
 * Lambda calculus & functional programming
 
+\begin{equation}
+f(k) = {n \choose k} p^{k} (1-p) ^ {n-k}
+\end{equation}
+
 # The arms race
 
 * Moores law

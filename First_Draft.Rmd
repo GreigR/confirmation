@@ -16,25 +16,37 @@ link-citations: yes
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-#Introduction
+# Introduction
 
-#The basics
+# The basics
 
-* The classic van neuman computer
+## The classic Van Neuman computer architecture
+@von1993first first described the components of what he termed "very high speed automatic digital computing system" (section 1.1), and it has become the standard architecture of the computer.  The concept has not changed since, even if the component level details have changed dramatically.
+
+The current unified concept of a Central Processing Unit (CPU) served two functions. The first was an arithmetic processor to complete basic mathematical operations. For @@von1993first this also included more complex functions such as sin, cos, log and square root functions. (section 2.2). The second component was the logic controller (section 2.3). The logic controller was responsible for the orderly execution of a specific set of instructions. The central logic controller was responsible for the orderly operation of the computer as a whole, including hardware components, regardless of any specific program that it was running. It was this latter feature that made this the architecture for a general computer, not dedicated to a specific task like some of the earlier machines (such as the "Colossus" of Bentley Park and the WW2 code breakers fame). 
+
+Key to the new design for the EDVAC was the provision of "considerable" memory (section 2.4). Although hilariously small at 34KB by today's standards, such memory allows for the solution to be broken into components for efficient problem solving within a supervising logic tree. It also allowed for interim states of variables to be available between components to be saved (@von1993first, section 2.4). @von1993first   also saw that such generalised computers could be useful for statisticians in regards to the managing of large data samples.  
+
+The computer will require input devices (@von1993first, section 2.6), such as punch cards,  and recording this information by use by the computer.  Note, for this architecture, the recorded information is not available for the computer. Hence, the computer needs a means of moving the data into the working memory or CPU (section 2.7).  Equally, a means of moving the results back to be recorded (section 2.8) and then outputting the results in human-readable forms, such as on a teletype (section 2.9)
+
+The aim of this computer, called the EDVAC, was to solve non-linear partial differential equations (@von1993first, section 1.2). 
+
+
+
 * The classic program - the wordprocessor
 
-#The algorithm is the truth
+# The algorithm is the truth
 
 * Turing machine
 * Lambda calculus & functional programming
 
-#The arms race
+# The arms race
 
 * Moores law
 * Hardware, software and OS evolution
 * Data still static
 
-#Collaboration
+# Collaboration
 
 * Shannon's communication theory
 * The internet
@@ -45,6 +57,9 @@ knitr::opts_chunk$set(echo = FALSE)
 * Dretske
 * Carnap and Bar Hillel
 
-#The lost counterfactual
+# The lost counterfactual
 
 * Lewis
+
+# Conclusion
+

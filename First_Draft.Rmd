@@ -6,21 +6,23 @@ output:
   pdf_document:
     toc: true
     toc_depth: 2
+    number_section: true
     citation_package: natbib
 bibliography: Reference.bib
 link-citations: yes
-
+lof: true
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+library(knitr)
 ```
 
 # Introduction
 
-# The basics
+# The anatomy of the modern computer
 
-## The classic Van Neuman computer architecture
+## The components comprising a computer
 @von1993first first described the components of what he termed "very high speed automatic digital computing system" (section 1.1), and it has become the standard architecture of the computer.  The concept has not changed since, even if the component level details have changed dramatically.
 
 The current unified concept of a Central Processing Unit (CPU) served two functions. The first was an arithmetic processor to complete basic mathematical operations. For @@von1993first this also included more complex functions such as sin, cos, log and square root functions. (section 2.2). The second component was the logic controller (section 2.3). The logic controller was responsible for the orderly execution of a specific set of instructions. The central logic controller was responsible for the orderly operation of the computer as a whole, including hardware components, regardless of any specific program that it was running. It was this latter feature that made this the architecture for a general computer, not dedicated to a specific task like some of the earlier machines (such as the "Colossus" of Bentley Park and the WW2 code breakers fame). 
@@ -29,16 +31,21 @@ Key to the new design for the EDVAC was the provision of "considerable" memory (
 
 The computer will require input devices (@von1993first, section 2.6), such as punch cards,  and recording this information by use by the computer.  Note, for this architecture, the recorded information is not available for the computer. Hence, the computer needs a means of moving the data into the working memory or CPU (section 2.7).  Equally, a means of moving the results back to be recorded (section 2.8) and then outputting the results in human-readable forms, such as on a teletype (section 2.9)
 
+```{r VNA, fig.cap = "Van Neumann Architecture"}
+include_graphics("/home/greig/R-projects/Confirmation/VN_Version1.png")
+```
+
 The aim of this computer, called the EDVAC, was to solve non-linear partial differential equations (@von1993first, section 1.2). 
 
 
 
-* The classic program - the wordprocessor
+
+## The classic program - the wordprocessor
 
 # The algorithm is the truth
 
-* Turing machine
-* Lambda calculus & functional programming
+## Turing machine
+## Lambda calculus & functional programming
 
 \begin{equation}
 f(k) = {n \choose k} p^{k} (1-p) ^ {n-k}
@@ -46,24 +53,26 @@ f(k) = {n \choose k} p^{k} (1-p) ^ {n-k}
 
 # The arms race
 
-* Moores law
-* Hardware, software and OS evolution
-* Data still static
+## Moores law
+## Hardware, software and OS evolution
+## Data still static
 
 # Collaboration
 
-* Shannon's communication theory
-* The internet
-* Fake news
+## Shannon's communication theory
+## The internet
+## Fake news
 
-#The ontology of information
+# The ontology of information
 
-* Dretske
-* Carnap and Bar Hillel
+## Dretske
+## Carnap and Bar Hillel
 
 # The lost counterfactual
 
-* Lewis
+## Lewis
 
 # Conclusion
+
+# Bibliography
 

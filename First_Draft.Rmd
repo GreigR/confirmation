@@ -2,6 +2,8 @@
 title: "Notes"
 author: "Dr Greig Russell"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
+header-includes:
+   - \usepackage{amsthm}
 output: 
   pdf_document:
     toc: true
@@ -12,7 +14,7 @@ bibliography: Reference.bib
 link-citations: yes
 lof: true
 ---
-
+\pagebreak
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 library(knitr)
@@ -20,10 +22,15 @@ library(knitr)
 
 # Introduction
 
-# The anatomy of the modern computer
 
-## The components comprising a computer
-@von1993first first described the components of what he termed "very high speed automatic digital computing system" (section 1.1), and it has become the standard architecture of the computer.  The concept has not changed since, even if the component level details have changed dramatically.
+
+# The modern computer
+Particularly, in information science, there is a constant dance between the applied and theoretical constructs. The work of one underpins the next advance in the other. While electronic computers were created to meet human needs when those needs exceeded the capacity of individual humans, information science preceeded and enabled their development. Yet much of the subsequent research and the consequent paradigms is focused on advancing the capacity of computers or their application to solving human problems. To understand information requires an understanding of computers. 
+
+Simply put a computer is a combination of hardware and software, and its current state is an iterative development of the original concepts developed and before WW2.
+
+## The hardware
+In 1945, @von1993first first described the components of what he termed "very high speed automatic digital computing system" (section 1.1), and it has become the standard architecture of the computer.  The concept has not changed since, even if the component level details have changed dramatically. The aim of this computer, called the EDVAC, was to solve non-linear partial differential equations (@von1993first, section 1.2).
 
 The current unified concept of a Central Processing Unit (CPU) served two functions. The first was an arithmetic processor to complete basic mathematical operations. For @@von1993first this also included more complex functions such as sin, cos, log and square root functions. (section 2.2). The second component was the logic controller (section 2.3). The logic controller was responsible for the orderly execution of a specific set of instructions. The central logic controller was responsible for the orderly operation of the computer as a whole, including hardware components, regardless of any specific program that it was running. It was this latter feature that made this the architecture for a general computer, not dedicated to a specific task like some of the earlier machines (such as the "Colossus" of Bentley Park and the WW2 code breakers fame). 
 
@@ -31,16 +38,11 @@ Key to the new design for the EDVAC was the provision of "considerable" memory (
 
 The computer will require input devices (@von1993first, section 2.6), such as punch cards,  and recording this information by use by the computer.  Note, for this architecture, the recorded information is not available for the computer. Hence, the computer needs a means of moving the data into the working memory or CPU (section 2.7).  Equally, a means of moving the results back to be recorded (section 2.8) and then outputting the results in human-readable forms, such as on a teletype (section 2.9)
 
-```{r VNA, fig.cap = "Van Neumann Architecture"}
+```{r VNA, fig.cap = "Von Neumann Architecture"}
 include_graphics("/home/greig/R-projects/Confirmation/VN_Version1.png")
 ```
 
-The aim of this computer, called the EDVAC, was to solve non-linear partial differential equations (@von1993first, section 1.2). 
-
-
-
-
-## The classic program - the wordprocessor
+## The software
 
 # The algorithm is the truth
 

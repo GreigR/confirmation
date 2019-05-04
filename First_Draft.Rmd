@@ -53,31 +53,31 @@ The paper tape describes the initial state of such a machine. After the machine 
 
 For everyone else, Turing's machine is the blueprint of a computer, which was brought to life on physical hardware following the design based on Von Neumann's architecture. 
 
-##The modern computer
+## The Operating System
 Remarkably, this remains the fundamental design of a computer ever since.   The only other significant change was in the 1960s IBM is credited with the introduction of the operating system (OS).   This innovation overcame the practical problem of the instruction set is unique to every computer chip. Changing the hardware meant rewriting all of the software, which as the scale of instruction sets grew exponentially was utterly impractical. 
 
 The OS became an abstraction that took standardised requests from an instruction set and translated them to the system used by the underlying hardware. For software developers, they could write the code once, and it would run across different hardware configurations. For hardware engineers, they could rapidly innovate without breaking all the client's software. 
 
-The standardised model of the computer has become;
+```{r modern_computer, fig.cap = "The essential modern computer", fig.height = 4}
+include_graphics("/home/greig/R-projects/Confirmation/Turing's_machine.png")
+```
 
+The standardised computer has becoime as shown in figure 2. As an example of such a machine, consider the word processor. A user buys a physical machine, which comes pre-equipped with an OS. From the list of word processors compatible with that OS, the user installs one.  Their consequent writing becomes the data or paper tape, and the program is the set of instructions to enable the data to be transformed, but the truth function of this transformation is in the instruction set and not in the data. 
 
+On reviewing the code, but not the data, one could see that a particular set of instructions will cause a selected text to be made bold. Regardless of what the truth value of the text is, the truth value of the program is whether the text was made bold or italic.  
 
-## The algorithm is the truth
+While the differentiation between the two may seem a pedantic quibble. The assumption of truth that the correct rendering of a blog means that the contents of the blog are equally correct has led to vaccination hesitancy to be included in the WHO top10 threats to world health due to incorrect anti-vaccination propaganda \footnote{"Ten threats to global health in 2019, from "https://www.who.int/emergencies/ten-threats-to-global-health-in-2019 downloaded 5.May.2019}. The truth value of the data or content, is for the user. In the era of Turing and von Neumann, users were expert mathematicians or equivalent. 
 
-## Turing machine
-## Lambda calculus & functional programming
+The rest of computing for the last 50 years has been an arms racing between providers of the hardware, the developers of operating systems, and the developers of software. The capacity and capabilities of individual machines has increased dramatically over time, but the core concepts have not. 
+
+What has changed is the falling price of computers so that they are now widely available, meaning users are no longer experts, making interpretation of output more fraught. The rise of the internet or interconnected computers makes determining the truth at scale even more fraught. Some believe that Shannon's law or communication protocols has considered this.
+
+# Shannon's law
 
 \begin{equation}
 f(k) = {n \choose k} p^{k} (1-p) ^ {n-k}
 \end{equation}
 
-# The arms race
-
-## Moores law
-## Hardware, software and OS evolution
-## Data still static
-
-# Collaboration
 
 ## Shannon's communication theory
 ## The internet

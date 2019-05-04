@@ -45,13 +45,22 @@ include_graphics("/home/greig/R-projects/Confirmation/VN_Version1.png")
 ## The software
 Alan Turing outlined the fundamental functional concepts of a computer in his landmark 1937 paper "On computable numbers, with an application to the Entscheidungsproblem" (@turing1937computable).  The EDVAC was supposed to enable such functions to occur within a general computer, as Turing described.
 
-Turing's computer was not the focus of the paper. Instead, it was a thought experiment that served as a vehicle to address the real issue the Entscheidungsproblem or "halting" problem.  The description has served as the basis for the archetype for what a computer needs to have to be a complete general computer. The term "Turing complete" has been coined to describe any such computer (or language on modern computers with the abstraction of the programming logic from the hardware into the software) that can perform all the functions of a Turing machine. 
+Turing's computer was not the focus of his paper. Instead, it was a thought experiment that served as a vehicle to address the real issue the Entscheidungsproblem or "halting" problem.  Yet, this description has served as the archetype for what a computer needs to have to be a complete general computer. The term "Turing complete" has been coined to describe any such computer (or language on modern computers with the abstraction of the programming logic from the hardware into the software) that can perform all the functions of a Turing machine. 
 
-The components of a Turing machine are the machine itself and paper tape. The former consists of a reader/writer head and a set of possible configurations.  The latter consists of a series of symbols.  The machine reads a symbol, and in combination with the current state of the machine performs the specified action. This action may be to change the symbol on the tape or move to another place on the tape or even do both (@turing1937computable). 
+The components of a Turing machine are the machine itself and paper tape. The machine consists of a reader/writer head and a set of instructions that depending on the initial state, describe what will happen next.  The paper tape consists of a series of symbols, and in Turing's day this was always numbers but what they are is irrelevant to the operation of Turing's machine.  The machine reads a symbol on the paper tape, and then performs the specified action by the instruction set based on that symbol. This action may be to change the symbol on the tape or move to another place on the tape or even do both (@turing1937computable). 
 
-The paper tape describes the initial state of such a machine. When the program has reached its end following a series of transformations, the tape will now describe the effect of the instructions on the original state, namely the answer.
+The paper tape describes the initial state of such a machine. After the machine holts, the paper tape now describes the output of the machine. Turing's research was about whether such machines will always holt and he was able to prove that they did not (@turing1937computable).
 
-This machine was used by Turing to determine if all such algorithms, which called themselves recursively, would eventually holt.  For everyone else, Turing's machine is the blueprint of a computer, brought to life on physical hardware that follows Von Neumann's architecture. 
+For everyone else, Turing's machine is the blueprint of a computer, which was brought to life on physical hardware following the design based on Von Neumann's architecture. 
+
+##The modern computer
+Remarkably, this remains the fundamental design of a computer ever since.   The only other significant change was in the 1960s IBM is credited with the introduction of the operating system (OS).   This innovation overcame the practical problem of the instruction set is unique to every computer chip. Changing the hardware meant rewriting all of the software, which as the scale of instruction sets grew exponentially was utterly impractical. 
+
+The OS became an abstraction that took standardised requests from an instruction set and translated them to the system used by the underlying hardware. For software developers, they could write the code once, and it would run across different hardware configurations. For hardware engineers, they could rapidly innovate without breaking all the client's software. 
+
+The standardised model of the computer has become;
+
+
 
 ## The algorithm is the truth
 

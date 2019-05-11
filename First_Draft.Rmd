@@ -21,10 +21,17 @@ library(knitr)
 ```
 
 # Introduction
+Despite living in the information age (@castells2010information),  the truth seems to be in short supply despite computer systems flooding us with information or at least data. Currently, terms like "fake news" or claims of state actors distorting elections through false social media claims are prevalent.  If the computer is supposed to solve the world's problems, why can it not tell us the truth?
 
+Partly this is a misunderstanding of the nature of the computer. Despite the exponential growth in component complexity and capacity with a similar accompanying reduction in price, the core concepts have not changed from Alan Turing's first description (@turing1937computable,).  Equally, the basic design has only gently evolved since Von Neumann's original design for the EDVAC (@von1993first).
 
+The computer is a tool to support experts by undertaking complex, large or repetitive transformations of data as described by the control program. The "truth" value of a computer is about whether the right transformation was selected or correctly encoded by the expert. A word processor transforms the text when the user selects options available. These functions could be to highlight a portion of text or build an index to the manuscript. That a program ran successfully means only it fulfilled the exit criteria.  Presumably, by creating the required index, but not necessarily if the algorithm had a software bug. Indeed, success does not even imply the truthfulness of the underlying material.
 
-# The modern computer
+With time computers supported more research programmes and with it, the transfer of data between the different computers used by individual team members became a necessity (@berners1994world). Underpinning this communication of data was Claude Shannon's theory of communication (@shannon1948mathematical). Shannon was an engineer with Bell, who was a telephone company focusing on long distance calls or telegrams. 
+
+Shannon was clear that his theory of communication did not comment on the truthfulness of content; others disagreed (@weaver1953recent).
+
+# The crucible
 In information science, there is a constant dance between the applied and theoretical branches of the discipline. The work of one underpins the next advance in the other. While electronic computers were created to meet human needs when those needs exceeded the capacity of individual humans, information science preceded and enabled their development. The focus for advancing the capacity of computers or their application to solving human problems ever since has been about developing the hardware and software together with theoretical paradigms. To understand information there requires an understanding of computers. 
 
 Simply put, a computer is the combination of its hardware and software, and its current state of development is an iterative development from the original concepts developed during and before WW2.

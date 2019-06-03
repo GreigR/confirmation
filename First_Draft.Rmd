@@ -21,15 +21,15 @@ library(knitr)
 ```
 
 # Introduction
-Despite living in the information age (@castells2010information),  the truth seems to be in short supply despite computer systems flooding us with information or at least data. Currently, terms like "fake news" or claims of state actors distorting elections through false social media claims are prevalent.  If the computer is supposed to solve the world's problems, why can it not tell us the truth?
+Despite living in the information age [@castells2010information],  the truth seems to be in short supply despite computer systems flooding us with information or at least data. Currently, terms like "fake news" or claims of state actors distorting elections through false social media claims are prevalent.  If the computer is supposed to solve the world's problems, why can it not tell us the truth?
 
-Partly this is a misunderstanding of the nature of the computer. Despite the exponential growth in component complexity and capacity with a similar accompanying reduction in price, the core concepts have not changed from Alan Turing's first description (@turing1937computable,).  Equally, the basic design has only gently evolved since Von Neumann's original design for the EDVAC (@von1993first).
+Partly this is a misunderstanding of the nature of the computer. Despite the exponential growth in component complexity and capacity with a similar accompanying reduction in price, the core concepts have not changed from Alan Turing's first description [@turing1937computable,].  Equally, the basic design has only gently evolved since Von Neumann's original design for the EDVAC [@von1993first].
 
 The computer is a tool to support experts by undertaking complex, large or repetitive transformations of data as described by the control program. The "truth" value of a computer is about whether the right transformation was selected or correctly encoded by the expert. A word processor transforms the text when the user selects options available. These functions could be to highlight a portion of text or build an index to the manuscript. That a program ran successfully means only it fulfilled the exit criteria.  Presumably, by creating the required index, but not necessarily if the algorithm had a software bug. Indeed, success does not even imply the truthfulness of the underlying material.
 
-With time computers supported more research programmes and with it, the transfer of data between the different computers used by individual team members became a necessity (@berners1994world). Underpinning this communication of data was Claude Shannon's theory of communication (@shannon1948mathematical). Shannon was an engineer with Bell, who was a telephone company focusing on long distance calls or telegrams. 
+With time computers supported more research programmes and with it, the transfer of data between the different computers used by individual team members became a necessity [@berners1994world]. Underpinning this communication of data was Claude Shannon's theory of communication [@shannon1948mathematical]. Shannon was an engineer with Bell, who was a telephone company focusing on long distance calls or telegrams. 
 
-Shannon was clear that his theory of communication did not comment on the truthfulness of content; others disagreed (@weaver1953recent).
+Shannon was clear that his theory of communication did not comment on the truthfulness of content; others disagreed [@weaver1953recent].
 
 # The crucible
 In information science, there is a constant dance between the applied and theoretical branches of the discipline. The work of one underpins the next advance in the other. While electronic computers were created to meet human needs when those needs exceeded the capacity of individual humans, information science preceded and enabled their development. The focus for advancing the capacity of computers or their application to solving human problems ever since has been about developing the hardware and software together with theoretical paradigms. To understand information there requires an understanding of computers. 
@@ -37,26 +37,26 @@ In information science, there is a constant dance between the applied and theore
 Simply put, a computer is the combination of its hardware and software, and its current state of development is an iterative development from the original concepts developed during and before WW2.
 
 ## The hardware
-In 1945, @von1993first first described the components of what he termed "very high speed automatic digital computing system" (section 1.1), and it has become the standard architecture of the computer.  The concept has not changed since, even if the component level details have changed dramatically. The aim of this computer, called the EDVAC, was to solve non-linear partial differential equations (@von1993first, section 1.2).
+In 1945, @von1993first first described the components of what he termed "very high speed automatic digital computing system" (section 1.1), and it has become the standard architecture of the computer.  The concept has not changed since, even if the component level details have changed dramatically. The aim of this computer, called the EDVAC, was to solve non-linear partial differential equations [@von1993first, section 1.2).
 
 The current unified concept of a Central Processing Unit (CPU) served two functions. The first was an arithmetic processor to complete basic mathematical operations. For @@von1993first this also included more complex functions such as sin, cos, log and square root functions. (section 2.2). The second component was the logic controller (section 2.3). The logic controller was responsible for the orderly execution of a specific set of instructions. The central logic controller was responsible for the orderly operation of the computer as a whole, including hardware components, regardless of any specific program that it was running. It was this latter feature that made this the architecture for a general computer, not dedicated to a specific task like some of the earlier machines (such as the "Colossus" of Bentley Park and the WW2 code breakers fame). 
 
-Key to the new design for the EDVAC was the provision of "considerable" memory (section 2.4). Although hilariously small at 34KB by today's standards, such memory allows for the solution to be broken into components for efficient problem solving within a supervising logic tree. It also allowed for interim states of variables to be available between components to be saved (@von1993first, section 2.4). @von1993first   also saw that such generalised computers could be useful for statisticians in regards to the managing of large data samples.  
+Key to the new design for the EDVAC was the provision of "considerable" memory (section 2.4). Although hilariously small at 34KB by today's standards, such memory allows for the solution to be broken into components for efficient problem solving within a supervising logic tree. It also allowed for interim states of variables to be available between components to be saved [@von1993first, section 2.4). @von1993first   also saw that such generalised computers could be useful for statisticians in regards to the managing of large data samples.  
 
-The computer will require input devices (@von1993first, section 2.6), such as punch cards,  and recording this information by use by the computer.  Note, for this architecture, the recorded information is not available for the computer. Hence, the computer needs a means of moving the data into the working memory or CPU (section 2.7).  Equally, a means of moving the results back to be recorded (section 2.8) and then outputting the results in human-readable forms, such as on a teletype (section 2.9)
+The computer will require input devices [@von1993first, section 2.6), such as punch cards,  and recording this information by use by the computer.  Note, for this architecture, the recorded information is not available for the computer. Hence, the computer needs a means of moving the data into the working memory or CPU (section 2.7).  Equally, a means of moving the results back to be recorded (section 2.8) and then outputting the results in human-readable forms, such as on a teletype (section 2.9)
 
 ```{r VNA, fig.cap = "Von Neumann Architecture", fig.height = 4}
 include_graphics("/home/greig/R-projects/Confirmation/VN_Version1.png")
 ```
 
 ## The software
-Alan Turing outlined the fundamental functional concepts of a computer in his landmark 1937 paper "On computable numbers, with an application to the Entscheidungsproblem" (@turing1937computable).  The EDVAC was supposed to enable such functions to occur within a general computer, as Turing described.
+Alan Turing outlined the fundamental functional concepts of a computer in his landmark 1937 paper "On computable numbers, with an application to the Entscheidungsproblem" [@turing1937computable].  The EDVAC was supposed to enable such functions to occur within a general computer, as Turing described.
 
 Turing's computer was not the focus of his paper. Instead, it was a thought experiment that served as a vehicle to address the real issue the Entscheidungsproblem or "halting" problem.  Yet, this description has served as the archetype for what a computer needs to have to be a complete general computer. The term "Turing complete" has been coined to describe any such computer (or language on modern computers with the abstraction of the programming logic from the hardware into the software) that can perform all the functions of a Turing machine. 
 
-The components of a Turing machine are the machine itself and paper tape. The machine consists of a reader/writer head and a set of instructions that depending on the initial state, describe what will happen next.  The paper tape consists of a series of symbols, and in Turing's day this was always numbers but what they are is irrelevant to the operation of Turing's machine.  The machine reads a symbol on the paper tape, and then performs the specified action by the instruction set based on that symbol. This action may be to change the symbol on the tape or move to another place on the tape or even do both (@turing1937computable). 
+The components of a Turing machine are the machine itself and paper tape. The machine consists of a reader/writer head and a set of instructions that depending on the initial state, describe what will happen next.  The paper tape consists of a series of symbols, and in Turing's day this was always numbers but what they are is irrelevant to the operation of Turing's machine.  The machine reads a symbol on the paper tape, and then performs the specified action by the instruction set based on that symbol. This action may be to change the symbol on the tape or move to another place on the tape or even do both [@turing1937computable]. 
 
-The paper tape describes the initial state of such a machine. After the machine holts, the paper tape now describes the output of the machine. Turing's research was about whether such machines will always holt and he was able to prove that they did not (@turing1937computable).
+The paper tape describes the initial state of such a machine. After the machine holts, the paper tape now describes the output of the machine. Turing's research was about whether such machines will always holt and he was able to prove that they did not [@turing1937computable].
 
 For everyone else, Turing's machine is the blueprint of a computer, which was brought to life on physical hardware following the design based on Von Neumann's architecture. 
 
@@ -79,16 +79,34 @@ The rest of computing for the last 50 years has been an arms racing between prov
 
 What has changed is the falling price of computers so that they are now widely available, meaning users are no longer experts, making interpretation of output more fraught. The rise of the internet or interconnected computers makes determining the truth at scale even more fraught. Some believe that Shannon's law or communication protocols has considered this.
 
-# Shannon's law
+# The data
+If hardware had been maturing since the 1940s and software has been evolving, then the data has been undergoing a revolution. From being stored on paper punch cards in giant warehouses, and the passive recipient of the software's transformation, data now is the critical component in the "information age" [@castells1997end].
+
+Beyond doubt, is the role of Claude Shannon and his mathematical theory of communication [@shannon1949mathematical]. Bell Labs employed Shannon, and the development of his theory of communication occurred within the context of Bell's business model of focusing on long-distance business communications within the USA.
+
+As Weaver [@shannon1949mathematical, p. 3] stated, the problem of communication comprises three components;
+
+1.  The technical problem of how accurately components of the message can be transmitted?
+2. The semantic problem of how information can be encoded, a process by definition that is reductionist, yet still retain meaning?
+3. The effectiveness problem or rather, how does the information still cause the desired effect in the recipient?
+
+The latter two components are core to Shannon's view of information and its transmission.
+
+Information, for Shannon, is about the "freedom of choice" between the options one could choose, not the final choice or indeed meaning [@shannon1949mathematical, p. 8].  
+
+Consider an example of a baggage handler at an airport. Given several planes, the handler needs to know which particular plane is the destination for this bag. If there are two planes, then a binary system is sufficient. A "yes" or "on" will indicate one plane, a "no" or "off" the other plane.  This yes or no status indicator is a single bit of information.  The baggage handlers have an index code for each plane (Information) without knowing the contents of the baggage (meaning). Three planes would require a 2-bit information system to differentiate, but would also be able to cope with four different planes ($2^2 = 4$).  
+
+In any system,  there is a statistical variation between the occurrence of outcomes. Locally, most flights to metropolitan centres and use large planes, less often smaller planes fly to other provincial locations, and occasionally much smaller planes fly to holiday destinations. @shannon1949mathematical, therefore, added a probability to the use of each code. The total amount of information (I) generatedby event $s_i$ in a given system is; 
 
 \begin{equation}
-f(k) = {n \choose k} p^{k} (1-p) ^ {n-k}
+I(s_i) = -log_2(p_i)
 \end{equation}
 
+Borrowed from the physical sciences, entropy (H) in this context determines the amount of "organised" information in a given system (S) [@shannon1949mathematical, p. 12]. It is the combination of each index code, together with how likely it is to occur.
 
-## Shannon's communication theory
-## The internet
-## Fake news
+\begin{equation}
+H(S) = -\sum_{i=1}^{n} p(s_i)log_2 p(s_i)
+\end{equation}
 
 # The ontology of information
 

@@ -79,7 +79,7 @@ The rest of computing for the last 50 years has been an arms racing between prov
 
 What has changed is the falling price of computers so that they are now widely available, meaning users are no longer experts, making interpretation of output more fraught. The rise of the internet or interconnected computers makes determining the truth at scale even more fraught. Some believe that Shannon's law or communication protocols has considered this.
 
-# The data
+# The rise and rise of data
 If hardware had been maturing since the 1940s and software has been evolving, then the data has been undergoing a revolution. From being stored on paper punch cards in giant warehouses, and the passive recipient of the software's transformation, data now is the critical component in the "information age" [@castells1997end].
 
 Beyond doubt, is the role of Claude Shannon and his mathematical theory of communication [@shannon1949mathematical]. Bell Labs employed Shannon, and the development of his theory of communication occurred within the context of Bell's business model of focusing on long-distance business communications within the USA.
@@ -102,11 +102,14 @@ In any system,  there is a statistical variation between the occurrence of outco
 I(s_i) = -log_2(p_i)
 \end{equation}
 
-Borrowed from the physical sciences, entropy (H) in this context determines the amount of "organised" information in a given system (S) [@shannon1949mathematical, p. 12]. It is the combination of each index code, together with how likely it is to occur.
+Borrowed from the physical sciences, entropy (H) in this context determines the amount of choice in a system or inverse of the amount of "organised" information in a given system (S) [@shannon1949mathematical, p. 12]. It is the combination of each index code, together with how likely it is to occur.
 
 \begin{equation}
 H(S) = -\sum_{i=1}^{n} p(s_i)log_2 p(s_i)
 \end{equation}
+
+One can then determine the relative entropy of a given system by comparing its current to state to the maximum theretically possible. The redundency in a given system is $1 - Relative entropy$ as this amount of information could be deleted from the overall message, without the information in the message being degraded.
+
 
 # The ontology of information
 

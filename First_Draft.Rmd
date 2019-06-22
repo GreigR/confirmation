@@ -20,6 +20,14 @@ knitr::opts_chunk$set(echo = FALSE)
 library(knitr)
 ```
 
+# Synopsis 
+
+Debates on the nature of information continue despite living in the information age (@castells1997end).  There are a plethora of terms such as data, big data, data lakes, machine learning, artificial intelligence, news, and fake news which is, apparently, different from just lies.
+
+Considered will be successive theories regarding the ontology of information before discussing the idea that the key to understanding the ontology of information is that unlike data, information can be used to build "explanatory" theories. Using the perspective of Lewis, such theories counterfactually can provide a sufficient, at least to the observer, causal explanation for some observed phenomena (@lewis2000causation). 
+
+Information as a word is an abstract noun. It is not a physical object. Instead, information is an abstraction of some key or vital essence of something else. Information is composed of data, but with something else as well. It is the nature of this something else that appears to cause the difficulties.
+
 # Introduction
 Despite living in the information age [@castells2010information],  the truth seems to be in short supply despite computer systems flooding us with information or at least data. Currently, terms like "fake news" or claims of state actors distorting elections through false social media claims are prevalent.  If the computer is supposed to solve the world's problems, why can it not tell us the truth?
 

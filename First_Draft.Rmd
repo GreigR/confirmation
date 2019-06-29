@@ -28,6 +28,22 @@ Considered will be successive theories regarding the ontology of information bef
 
 Information as a word is an abstract noun. It is not a physical object. Instead, information is an abstraction of some key or vital essence of something else. Information is composed of data, but with something else as well. It is the nature of this something else that appears to cause the difficulties.
 
+For Turing,  the father of modern computing, information is held within the algorithm and not within the data (@turing1937computable).  Consider a word processor. The validity of the algorithm is based only on whether it performs the correct transformation of the data to the satisfaction of the expert user. This position is utterly reasonable given that a computer was viewed as only a device to support a positivist research paradigm, run by experts. For Turing then, information is the data plus the independent algorithm that describes the causal relationship between the data elements to an expert.
+
+Shannon, as a communications engineer working for Bell laboratories, views information as a measure of surprisal in a message, plus the raw message data (@shannon1948mathematical). An example is a set of traffic lights at an intersection. Only the first two cars can see the traffic lights and an unfortunate tree blocks the third car's view. For the first two cars, the light turns green (the data) and that it is now their turn to go (the surprise factor or information). The third car, instead, learns that it is now time to go (the surprise factor) from the other moving cars ahead. When the traffic light becomes visible, the driver receives the data that the light is now green, but no actual new or surprising information. Critical elements for Shannon's communication theory is that the possible information in a message is the sum of relative probabilities of sub-components that comprise the message. Expressly excluded is any consideration of semantic content within the message itself.
+
+The preliminary argument for this thesis is that if data is surprising, then theories are reassuring, while information is data that is capable of forming a theory. In the same sense, wheat, like data, has potential but is not sufficient to make products for humans. Equally, with grinding into flour, its potential application is spread across many end products such as bread or cakes, of varying quality or relevance.
+
+Data is like wheat, in that it is plentiful and there are complexities around its collection, storage and distribution, which is of no impact on its end users.  These atomic data elements joined together, make the elements or the information components that are capable of forming or supporting a theory. Where a theory, reassuring, making sense of these surprising or even frightening information elements as it generally allows for the world to be more predictable for the individual. 
+
+In contrast to @dretske1981knowledge and his concept of "nuclear knowledge," where such knowledge comprises theories that have been rigorously tested and are hence accepted by all, this conceptualization argues that theories should are ubiquitous. Many such theories will be of poor quality or be merely wrong, but they all share the property of being reassuring to the holder. A trivial example would be the statement;
+
+"I am late for work, but as I know a shortcut, I will still arrive on time."
+
+So the fright is the running late for work, the reassuring theory is that a quicker route exists, hence the prediction of a positive outcome. Is this theory generalizable, of course not, it covers only one shortcut to one destination. Can one generate a prediction, probably not, but it a reassuring.
+
+This reassuring theory comprises information about route options derived from a raw data source, such as a map. Information in this instance is a collection of data elements (streets), capable of forming a route because they are adjacent to make a theory, or route, as to the time it will take to arrive at the destination.
+
 # Introduction
 Despite living in the information age [@castells2010information],  the truth seems to be in short supply despite computer systems flooding us with information or at least data. Currently, terms like "fake news" or claims of state actors distorting elections through false social media claims are prevalent.  If the computer is supposed to solve the world's problems, why can it not tell us the truth?
 

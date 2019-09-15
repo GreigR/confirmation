@@ -94,7 +94,7 @@ The message however muct have sufficient capacity to carry the information. So l
 
 # Chapter 3: A semantic theory of information
 
-## Core theorem
+## Definition
 
 For a signal to carry the information that s is F, it must be the case that;
 

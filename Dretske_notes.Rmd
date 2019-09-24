@@ -134,5 +134,81 @@ Dretske digresses on p.73 to discuss correlation and to distinguish that given c
 
 This is intentionality is that s is F can not be substitued by s is H without changing the meaning. Underpinning information intentionality is nomic regularities. Namely that s is F is a manifestation of a law of nature. 
 
+# Chapter 4: Knowledge
 
+## Traditional definition
+The traditional answer to the what is knowledge question, is that it is a justified true belief. This is usually seens as a two step process. The first is that the belief is justified and that s is F.
+
+This traditional view has a number of challenges and Dretske proposes to replace this with an information centric model. There is to be three stages to this;
+
+1. What is knowledge?
+2. What is knowledge in terms of information and belief?
+3. Belief is then to  be resolved into its informational components.
+
+**Key Premise**
+Knowledge is considered from the perspective of perceptual knowledge.  
+
+## Information centric definition
+**K knows that *s* is *F*, equals *K* belief that *s* is caused (or causally sustained) by the information that *s* is *F*.**
+
+where knowledge about that something is s is due to something other than prior belief or knowledge and is confinded to the perceptual object and the source from where this information was received. Any belief that K might have that s is F is onl knowledge if and only if that belief is caused by the information that *s* is *F*.
+
+**In summary**, knowledge is identified with an information-produced (or sustained) belief, but the information a person receives is relative  to what they already know about the possibilities of the source. So whether a person can learn that s is F, may depend on prior knowedge about s but does not depend on knowing that s is F.
+
+What is meant by saying that a belief is caused by a piece of information? Supposed signal r carries the information that s is F, but carries that information due to having the property F'. There is signal carries the information that s is F by virtue of having the property F', when it is the signal being F' that carries the information, then and only then will we that the information s is F causes whatever the signal's being F' causes.
+
+Dretske uses the example of a window breaking after being hit by an object.  If the object is a brick then it has the property of velocity and weight, so is having the property of momentum that underpins the idea that the brick broke the window. WHile a leaf does not have the property of momentum, so can not underpin the knowledge that the window broke after being hit by the leaf(p.88).
+
+Dretske then argues for how information causally sustains a belief. He uses the example of **K** who is reassured by a meddler that *s* was *F*. The meddler knows nothing on the subject but **K** believes him. **K** then observes that indeed *s* is *F*. In which case, **K** knows that *s* is *F* because of the information derived from his observations not because of his false beliefs derived from the meddler (p. 89). 
+
+For Dretske this information derived from observations is the "second string" that supports a prior belief in say *s* is *F*. Neither is seen as necessary, as each alone is sufficient. The second "string" is helping and it *sufficies* for support of the object, and is what Dretske means by a "sustaining cause".  Yet, the observation that *s* is *F* is insufficent for it be a "supporting cause" of K's belief, if it merely supports the false belief from the mddler (p. 90). 
+
+*Note to self this all seems just so faffed up?*
+
+This links back to the definition about thet *s* is *F* only because it has the same property as *F'*. So observation alone that *s* is *F* with the presence of *F'*, such as the false reassurance of the meddler, is not sufficient for **K** to have verifiable knowledge derived from information is *s* is *F*. **K** may believe there is a fault with his sensory systems so that although *s* is *F* is observed, it does not engender the belief that *s* is *F* for **K**. 
+
+*Note to self, so how does a beliefe get formed?*
+
+## Definition of knowledge
+Rather, this is "coordination between our ordinary concept of knowledge (or, better, perceptual knowledge) and the technical idea of informaiton".
+
+### Ordinary Judgments
+For **Y** to be necessary for **X**, there needs not to be any situation where **X** occurs without **Y**. If not, there is inductive grounds for arguing that **Y** is a necessary condtion for **X**. 
+
+The example given is the memo with Herman's name written on it being lost. The careless messanger, writes another and by chance alone writes Herman's name. The manager therefore has no true knowledge that Herman was the employee chosen for the unpleasant task by the workforce.
+
+Similarly, imagine a jar of coloured bals with the following distribution of balls;
+
+P(P|r) = 0.9
+
+P(Y|r) = 0.03
+
+P(B|r) = 0.03
+
+P(G|r) = 0.04
+
+The signal raises the probability that *s* is *P* but the equivication is 0.6 bits, and only 1.4 bits of information, so the receiver of the signal can never be sure the answer will be pink, because the equivication is not zero. Hence although the receiver might be expecting the ball to be P=Pink, the signal said that the ball was P=Pink but he could never know for 100% as the condition probability is not 1, and the equivication is not 0 (p. 94). So there is no ability to achieve **certainty knwledge**, ie knowledge where there is 0% equivication associated with the information in the message.
+
+If the receiver was then told that someone saw the ball being drawn and it was not Yellow, Green or Blue, then the receiver could reasonably assume the sum of the two bits of information means that the ball was Pink, now he is able to **know**, this extra information or *k*  from the earlier definition enables **certain knowledge** to be achieved.
+
+## The Gettier Problem
+Dretske goes on to consider the "Gettier problem", namely that if knowledge is a justified true belief the challenge of being able to have a justified true belief about something is false, is a problem. 
+
+*Note to self, more details about the Gettier problem are needed*
+
+Information derived **certain knowledge** provides an escape. *K* might have a justified true belief the *s* is *T* but the information that *s* is *T* was never within the signal, because *s* is *F*. Hence *K* can never have **certain knowledge** that *s* is *T* but the belief that it is true is fully justified. For Dretske then, there is a clear difference between the belief that *s* is *T* and the knowledge *s* is actually *F*. The former is a justified true belief, that information is not in the signal, ie. the equivication is not xero, and the latter which is **certain knowledge** as there is no equivication associated with the signal.
+
+## The Lottery Paradox
+In a given lottery the chances of holding a winning ticket is very very small, but not zero. So, with out information that *s* is *F*, but only s, one could assume that *K* knows she is not holding a winning ticket. Suppose the associated equvication is $e_F$. Likewise, *K* would know that a friend also had a ticket, that is unlikely to win, so *K* knows that *t* is *G*, with the associated small equivication being $e_G$. By the conjunction principle, *K* knows that the total equivication is $e_F + e_G$. Hence the more unlucky friends that *K* has, the more the total equivication known rises;
+
+\begin{equation}
+e_T = \sum_{i = 0}{i = n)} e_i
+\end{equation}
+
+The total equivication known to *K* grows the more she collects friends who do not know that *s* is *F*. Hence as *K* has not information that *s* is *F* only a slight belief that *s* is *F*, she has no certain knowledge of any outcome and the cumulative rule does not apply.
+
+## Chinese whispers
+Dretske then raises the challenge of what used to be called Chinese whispers. In this he imagines an infinite chain of individuals from $K_1$ to $K_n$. $K_1$ tells $K_@$ than *s* is *F*, with a very small equivication. So small it does not distort the intent of the message. As the message is passed down the chain, the equivication builds to the point that the message is not lost but the information underpinning that message has a conditional probability no better than chance. For Dretske the key here is not the loss of information, rather there is no awareness of the point at which the information the *s* is *F* was lost.
+
+Hence Dretske argues that with any equivication, **certain knowledge** is immediately lost.
 

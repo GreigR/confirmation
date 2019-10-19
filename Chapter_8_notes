@@ -4,3 +4,20 @@ The aim of this chapter is bridge the gap between true and false beliefs from th
 
 His initial position is that a structure's semantic content is identified with the information contained in the fully digitized form. Hence as the information can not be false, the semantic content can not be false. Then it follows as we do have false beliefs, beliefs are not semantic structures. Equally, the information-centric analog of belief must be capable of having false content (p.190).
 
+Dretske's main metaphor in this chapter is the map, with the associated typographical symbols.  The informational linkage between the symbols and the reality they represent is the map maker.  If that link is broken the map is neither true or false, rather it says nothing. Equally, the map itself has no expressive power over the terrain it describes. The symbols may have meaning but this meaning is independent of the information they contain on any given circumstance.
+
+Dretske then proposes a model considering during a period *L* that a system is exposed to a variety of signals *s*, some of which is *F*. Initially, the system at the start of *L* will be able to code the information into analog form but not digitize it. During the learning phase, *L* develops a way of digitizing the analog signal and confers a token. This structure *L* then can over fit, so assign tokens on the real world data with the token meaning that *s* is *F*, without the information that in this signal *s* is *F* also being true. 
+
+This for Dretske is a concept, an internal semantic structure and how information may or may not be attached to the concept. Hence a belief or a concept may contain the meaning, with out containing the information. This concept is illustrated with the example of child being mistaught as to the type of birds that fit into a given description. The child can see a bird of that type, label it correctly but the label does not contain the information as to the correct type of bird it is.
+
+A belief therefore is based on the underlying token with intentional content. Namely, given I have this token, I believe that *x* is *Y* to be true.
+
+There is a second element to a belief, namely the ability to guide actions. So a belief has both the representational component, as well as the control of the future state. Dretske still likes the metaphor of the map. It represents the external topography and underpins future actions (p. 197).
+
+He gives the example of a broken theomostat, which may receieve the information as to the temperature of the room but be unable to alter the heater. So the informational component of belief is maintained but the subsequent consequences are lost. 
+
+Hence Dretske's final formulation of a belief is that it is a concept that inhabits the executive functions of the organism. It must be both a concept with an information and serve as the basis for behavior. So what we believe underpins what we do. 
+
+This is a narrow definition as beliefs with cognitive but not semantic content, may drives actions but are not true beliefs (p. 199).  This is more important than when first written. Consider an algorithm that is designed to recognize "T" in any orientation, but in so doing the information as to its orientation is lost with the success of the algorithim in recognizing this as an instance of "T" despite its orientation.  This is the problem with neural networks, the information is inherently lost across the network and in effect digitized despite still being analog signal. NNM is a reductionist process that may strip all information out.
+
+The rest of the chapter defends against alternative formulations of belief, which I will skip for the moment.

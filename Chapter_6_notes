@@ -1,0 +1,62 @@
+# Chapter 6: Sensation and perception
+
+*This chapter feels very dated, but Dretske was writing in 1981.* 
+
+## Analog and Digital Coding
+Dretske proposes a complicated split between analog and digital coding of sensory data.
+
+![Digital to analogue information flow](analog_to_digital.jpg)
+
+
+From a 1981 perspective, analogue signal has greater depth and breadth of information as compared to digital. Then seen as been a single on/off switch. So an analogue recognition of an "A" reflects the whole diversity of scripts, while the typed "A" is an on/off.
+
+The example given is of a signal that covers the four parts of the speed zone that correspond to the gear ranges in the car. The 3rd signal is on for the entire rev range of 3rd gear. It is not more on for almost 4th. Yet by this loss of information, is a *classification* and hence **stimulus generalization**. 
+
+## Sensory vs. Cognitive processes
+I must be missing something. Dretske focuses on the step down *"in"* the channel from the analgue to the digital, with the associated *loss* of information.
+
+He talks of information being stored in the "sensory information store", so that inmformation remains available for cognition after the channel has cleared. There is discussion that there is a difference between absorbtion and later transmission of the information contained in an image, the later requiring speech (or writing). 
+
+Fundamentally the transition from analogue to digital is a coding (maybe decoding) problem.  He does make the point that the tree signal may just trigger the tree abstraction or could equally be a translation from picture to statement.
+
+Dretske, describes learning as being the adaption in the decoding process, so allowing information to enter cognitive awareness. **This seems all impossibly weak.** He uses the example of the small child who can see the flower, but does not know it is a daffodil, the less sighted elder can see the flower and know it is a daffodil. **Age, weak.**
+
+There is an acknolwedgement of over simplification, **no kidding**, and that he quotes James Gibson on the importance of change over time and the development of a sequential representation. He also acknolwedges that he is ignoring the multi-chanel nature of human sensory systems. **I am not convinced that this is such a problem as they are all variations on a theme**.
+
+He does bring up what he calls *"restoration"*, where the cognitive process fills in the gaps. There is also a discussion on the "the rule of sevens" or Miller's law.  Which seems more of an emperical association than a law, which also truns out to be Dretske's point as well. The theory of communication says there is no limit to the amount of information that can be contained in the channel only a limit on the average amount of information. For Dretske, Miller's law is about the decoding process or analogue to digital conversion.
+
+Dretske does make the valid point that because a Human can only articulate at 40 bits/sec does not mean human's can only only receive at 40 bits/sec (p.149). This rate is the rate of the *weakest* or **slowest** link in the cognitive chain, which is not sensation. Before returning to the sensory information store aka short term memory aka iconic memory. He argues that these show that cognitive awareness of the sensation of vision was less than cognitive awareness of the information contained in the sensation of the vision (p.151).
+
+He also uses the example of Monkey's and there ability to abstract (to an extent), so they will react to the larger of two rectangles, regardless of the size of each. They can not cope with three different sized rectangles and aiming for the middle one, while chimpanzee's can.  For Dretske then the monkey can sense the three rectangles but can not be cognitively extracted. 
+
+**Key point:
+If perception is understood as a creature's experience of his surroundings, then, perception is cognitively neutral (p.153).**
+
+But whether one is capable of knowing the information in the signal is quite another. **This of course, is bollocks.**
+
+## The objects of perception
+For Dretske, given that perception is cognitively neutral, the channel used does not impact the information carried. Each may be a quite different representation but each carries the same information. This feeds into his hypothesis that to go form information to knowledge is the translation is the step down conversion from analogue to digital.
+
+Cognitive states are always propositional, namely we know that *s* is *F*, based on some perceptual information. For Dretske, perceptual states are different.  **What determines what we percieve is not what we believe about what we percieve (p.155)**. For example if you have no awareness that a train is moving, but a friend tells you the train is moving. Then the train is moving is a propositional object of your cognitive state, but the the train's movement is not an object of your perceptual state.
+
+Dretske outlines the usual theory of perceptions that they are generated by an external object. So my vision of an object, is caused by the relationship between object and the visual path to my retinal. He goes onto to outline some of the challenges. Including that there is a sequence from the object or event, to my sense organs to being presented to the cognitive process. Dretske believes the question is how the chain of events can leading to perception can be explained on purely causal grounds.
+
+Dretske dismisses the causal hypothese as it does not consider the information elemnts in the relationship. The first is that *C* can cause *E* without an information being carried about *C*. Also, *E* can be over-determined, so for Dretske some causal antecedents are unique and it is this that serves as the basis for perceptions.
+
+![Fig 6.2](Fig6.2.jpg)
+
+Consider the chain in Fig 6.2. That *c* is *B* triggers either that *d* is *E* or that *d* is *F* but only *d* is *E* consistenyly triggers *S* in a causal chain.  That *d* can be *F* will on occasion also trigger S, say 40% of the time.  So now, the reality of *S* carries the information that *c* is *B* but carries no information that if *d* was *E* or *F*. 
+
+This contrasts the difference between a causal relationship and an information relationship. We can not determine the causal chain leading to *S*, but does carry information of the triggering event namely that *c* is *B*. Equally, the cognition of *S* may be causally overdetermined but contain the same information regardless.
+
+![Fig 6.3](Fig6.3.jpg)
+
+In this case information that S denotes that *f* is *G* depends on the link to that *c* is *B*, whereas *c* is *B* is inherent. *S* therfore gives aprimary presentation of *B* but that *G* is associated depends on an informational link between *f* and *c*. Think that the door bell being pressed is *G* and the doorbell circut being closed is *B*. A short circut could close the circut and cause *S* the bell ringing without anyone pushing the button. So the button being pushed has a secondary represnetation. If pressing the bell  triggered a noise in its own right, the  it too would have a primary representation.
+
+Normal communication systems always have qualities such as magnitude, which is the magnitude of the primary representation. Also quantities, which are the magnitude of secondary phenomena eg pressure as a meausre of height (secondary) which is then converted into altidue or primary.
+
+Sensory information must be encoded to allow the quality or quantity to be available for preception. Dretske raises the intersting point of a white paper that continues to look white, even when as the lighht dims the total lighr reflected is less than the black paper at full light intensity. 
+
+He also raises how an object remains stationary despite our eyes moving. For something to be perceived, then it needs to move relative to another distal object. so the proximal object does not have a primary presentation as it is dependent on another representation. For Dretske then the mind (or the eye) is sensitive to ratios and not absolute sizes. 
+
+

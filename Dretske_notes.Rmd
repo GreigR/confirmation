@@ -46,7 +46,7 @@ Hence
 4. Communication theory is not a theory of information
 
 **Dretske's counter**
-That is a theory does provide a satisfactory account of meanig, it does not provide a satisfactory account of any semantic concept.
+That is a theory does provide a satisfactory account of meaning, it does not provide a satisfactory account of any semantic concept.
 
 For Dretske, while there is some logic for a communication engineer trying to right size a communication channel to talk about about the entropy of a system, there is no such concept of average information in two messages on two different topics.
 
@@ -54,7 +54,7 @@ He makes the argument for a pre-arranged system where a 1 is transmitted if the 
 
 For a communication engineer this is a highly inefficient system, and a better solution is to give up ever knowing where the chess piece ever actually is but reducing the possibilities of where it might be. If you are only interested in knowing when the chess piece is on square 2, then you are actually much worse off with the more efficent communication system as you get less information all of the time in the communication, even if the channel capacity is greater.
 
-Dretske, hwever, argues that Communication theory can be used to estimate the quantity of information contained in a given signal (p. 51)
+Dretske, however, argues that Communication theory can be used to estimate the quantity of information contained in a given signal (p. 51)
 
 He argues that key are the surprisal of a given message or the amount of information contained in a given message.
 

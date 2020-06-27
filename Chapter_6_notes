@@ -7,7 +7,6 @@ Dretske proposes a complicated split between analog and digital coding of sensor
 
 ![Digital to analogue information flow](analog_to_digital.jpg)
 
-
 From a 1981 perspective, analogue signal has greater depth and breadth of information as compared to digital. Then seen as been a single on/off switch. So an analogue recognition of an "A" reflects the whole diversity of scripts, while the typed "A" is an on/off.
 
 The example given is of a signal that covers the four parts of the speed zone that correspond to the gear ranges in the car. The 3rd signal is on for the entire rev range of 3rd gear. It is not more on for almost 4th. Yet by this loss of information, is a *classification* and hence **stimulus generalization**. 

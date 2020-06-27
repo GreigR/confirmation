@@ -1,0 +1,32 @@
+---
+title: "Thesis Chapter 2 version 0.1"
+author: "Dr Greig Russell"
+date: "6/28/2020"
+output:
+  pdf_document: 
+    toc: true
+    toc_depth: 3
+    citation_package: natbib
+    number_sections: yes
+link_citations: yes
+bibliography: Reference.bib
+header - includes:
+  - \usepackage(amsmath)
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+George Boole (1815 - 1864) was born in Lincoln and died in Cork. He was a self-taught mathematician and educationalist, who was too poor to attend Cambridge yet became the foundation professor of mathematics at Cork and a Fellow of the Royal Society (@machale2014life). 
+
+# What Boole did say
+
+## Set Theory
+
+\begin{equation}
+E = mc^2
+\end{equation}
+

@@ -34,13 +34,43 @@ In 1854, Boole published the key work of relevance to this study, “An Investig
 
 *The following work is not a republication of a former treatise by the Author, entitled, The Mathematical Analysis of Logic." Its earlier portion is indeed devoted to the same object, and it begins by establishing the same system of fundamental laws, but its methods are more general, and its range of applications far wider. It exhibits the results, matured by some years of study and reflection, of a principle of investigation relating to the intellectual operations, the previous exposition of which was written within a few weeks after its idea had been conceived.*
 
-@boole1854investigation will be the key focus of this discussion.
+@boole1854investigation will therefore be the key focus of this discussion.
 
-# Key Insight
+# Key Idea
 
-## Set Theory
+@boole1854investigation seeks to bridge the gap between words and symbols, built on the preface “that Language is an instrument of human reason (p. 17)” although admitting that some have argued to reason without such an assumption.
+
+The formulation rules of Boole’s algebra are;
+
+A language consists of words which are signs or symbols, where a sign is admittedly arbitrary in its definition, within a given context and other associated signs.
+Such an arbitrary definition may be contextual but within that context, it is also consistent within that context.
+Such conceptual signs are represented by symbols as x, y…
++, -, * are signs of operation by which conceptual signs are combined or similar...
+= is the sign for identity.
+A combination of signs like “xy” is taken as the combination of x ^ y.
+Given 6, then “xy = yx”.
+
+Then Boole’s key insight can be developed;
 
 \begin{equation}
-E = mc^2
+ xy = x
 \end{equation}
 
+Which is taken to mean for a combination object “white horned sheep” expresses a class of objects like all sheep. Then consider the case where;
+
+\begin{equation}
+ xx = x
+\end{equation}
+
+Which is the case where x is of the same class as y. Hence;
+
+\begin{equation}
+ x^2 = x
+\end{equation}
+
+Which is only true if x = 0 or x = 1.
+
+
+## Boole's Ontology
+
+\newpage

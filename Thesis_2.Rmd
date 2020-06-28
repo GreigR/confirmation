@@ -20,9 +20,23 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Introduction
 
-George Boole (1815 - 1864) was born in Lincoln and died in Cork. He was a self-taught mathematician and educationalist, who was too poor to attend Cambridge yet became the foundation professor of mathematics at Cork and a Fellow of the Royal Society (@machale2014life). 
+George Boole (1815 - 1864) was born in Lincoln and died in Cork. He was a self-taught mathematician and educationalist, who was too poor to attend Cambridge (Chap.4, @machale2014life) yet became the foundation professor of mathematics at Cork and a Fellow of the Royal Society (Chap.5, @machale2014life). His work has influenced much of what has followed particularly with regards to Computer Science and logic. He first used the “Universe of Discourse” (p. 30 @boole1854investigation) and the abstract variable type of logical variables is called a Boolean in some computer languages like Pascal (@hayward1986compared).
 
-# What Boole did say
+Boole was no means some random savant, emerging from the wilderness to transform academia without access to prior learning. Although he is sometimes portrayed as such, he was very much engaged in the spirit of the age (Chap. 1, @machale2014life). @machale2014life outlines how that Boole’s father, John, was indeed a cobbler, whose business was challenged, which had a significant constraining influence on Boole’s life choices.  The reason for this state of impoverished affairs was that John lacked interest in being a Cobbler. Preferring instead to make optical instruments, and John was a life long learner in science, literature and mathematics. Indeed, even when famous George’s mother regarded his father as being more gifted despite George’s fame (@machale2014life).
+
+As a child, George was fascinated with mathematics and other “abstract” subjects. His father taught George the joy of practical science through the family telescope and his father’s love of astronomy. However, George had a broad reach of interests including the humanities, arts and sports but was by nature a quiet, retiring, man (@machale2014life). It was George’s interests in the humanities that first drew his brilliance to public attention, although his father’s financial situation limited his choices, George attended a period of secondary education and supplemented this by learning several European languages. This enabled George to stay abreast of academic learnings in Europe (@machale2014life).
+
+This state of relative impoverishment meant as George had to buy all his own books, he focused on mathematics as being better value for money. Admirers also gave him access to similar such as Lacroix’s *Differential and Integral Calculus* or Newton’s *Principia* (@nahin2017logician). Being self-taught, meant he was self-reliant and needed to develop a rigour to his study as he lacked teachers to ease his academic journey (@machale2014life).
+
+By 1844, Boole earned a Royal Medal for his paper on the “On a general method on analysis” (@boole1844viii) and by 1849, despite not having any degree, Boole, was appointed the foundation professor in mathematics at Queen’s College in Cork, Ireland (@nahin2017logician). Boole would reside in Cork until his death but married in 1850. He had five daughters, all of who were equally talented in a plethora of subjects in their own right(@machale2014life).
+
+In 1854, Boole published the key work of relevance to this study, “An Investigation Of The Laws Of Thought, On Which Are Founded The Mathematical Theories Of Logic And Probabilities” (@boole1854investigation). This was his second work on the subject (@boole1847mathematical), but as Boole, himself states in the preface;
+
+*The following work is not a republication of a former treatise by the Author, entitled, The Mathematical Analysis of Logic." Its earlier portion is indeed devoted to the same object, and it begins by establishing the same system of fundamental laws, but its methods are more general, and its range of applications far wider. It exhibits the results, matured by some years of study and reflection, of a principle of investigation relating to the intellectual operations, the previous exposition of which was written within a few weeks after its idea had been conceived.*
+
+@boole1854investigation will be the key focus of this discussion.
+
+# Key Insight
 
 ## Set Theory
 

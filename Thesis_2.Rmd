@@ -30,11 +30,7 @@ This state of relative impoverishment meant as George had to buy all his own boo
 
 By 1844, Boole earned a Royal Medal for his paper on the “On a general method on analysis” (@boole1844viii) and by 1849, despite not having any degree, Boole, was appointed the foundation professor in mathematics at Queen’s College in Cork, Ireland (@nahin2017logician). Boole would reside in Cork until his death but married in 1850. He had five daughters, all of who were equally talented in a plethora of subjects in their own right(@machale2014life).
 
-In 1854, Boole published the key work of relevance to this study, “An Investigation Of The Laws Of Thought, On Which Are Founded The Mathematical Theories Of Logic And Probabilities” (@boole1854investigation). This was his second work on the subject (@boole1847mathematical), but as Boole, himself states in the preface;
-
-*The following work is not a republication of a former treatise by the Author, entitled, The Mathematical Analysis of Logic." Its earlier portion is indeed devoted to the same object, and it begins by establishing the same system of fundamental laws, but its methods are more general, and its range of applications far wider. It exhibits the results, matured by some years of study and reflection, of a principle of investigation relating to the intellectual operations, the previous exposition of which was written within a few weeks after its idea had been conceived.*
-
-@boole1854investigation will therefore be the key focus of this discussion.
+In 1854, Boole published the key work of relevance to this study, “An Investigation Of The Laws Of Thought, On Which Are Founded The Mathematical Theories Of Logic And Probabilities” (@boole1854investigation).
 
 # Key Idea
 
@@ -71,6 +67,22 @@ Which is the case where x is of the same class as y. Hence;
 Which is only true if x = 0 or x = 1.
 
 
-## Boole's Ontology
+# Boole's Ontology
+
+## An Investigation of the Laws of Thought
+For @boole1854investigation his book “An investigation of the laws of thought: on which are founded the mathematical theories of logic and probabilities” was his seminal work. Clearly it has given inspiration to others in fields like Computer Science, Number theory and Logic. Boole was clear his focus was on logic and reasoning;
+
+*“1. The design of the following treatise is to investigate the fundamental laws of those operations of the mind by which reasoning is performed; to give expression to them in the symbolical language of a Calculus, and upon this foundation to establish the science of Logic and construct its method; to make that method itself the basis of a general method for the application of the mathematical doctrine of Probabilities; and, finally, to collect from the various elements of truth brought to view in the course of these inquiries some probable intimations concerning the nature and constitution of the human mind. ”* ( @boole1854investigation, paragraph 1.1).
+
+For Boole, this was an evolution from his previous work “The Mathematical Analysis of Logic” (@boole1847mathematical), rather “An Investigation of the Laws of Thoughts” was 
+
+*“Its earlier portion is indeed devoted to the same object, and it begins by establishing the same system of fundamental laws, but its methods are more general, and its range of applications far wider. It exhibits the results, matured by some years of study and reflection, of a principle of investigation relating to the intellectual operations, the previous exposition of which was written within a few weeks after its idea had been conceived...”* (@boole1854investigation, p. iii).
+
+Boole also linked his work back to Whately’s earlier “Elements of Logic” (@whately1826elements). @Neumann2018whately described Whately’s work as introducing Aristotelian logic to the Victorian public. By the beginning of the 17th century, Oxford University was the last remaining stronghold of Aristotle’s logic, but it was under attack from all sides largely seen as useless, fit only to torture undergraduates (@Neumann2018whately). 
+
+@whately1826elements published a widely popular defence of Aristotle that ran to nine editions and introduced logic to the Victoria public. “Elements of logic” describe the development of logic from the pre-socratic greek philosophers to Locke. For @whately1826elements, logic was both a science and an art. It was science when it was applied to the “theory of reasoning” and art when the application of knowledge into practice (@whately1826elements, p. 1).
+
+In “Of the Operations of the Mind and of Terms”, Whately starts to consider what Boole would expand upon (Of the Operations of the Mind and of Terms, p. 251). Namely, the three states within the mind. The first is “Simple-apprehension” is the sense perception of an object. Such apprehension can be either “incomplex” (or a single object like a horse) or complex (or conjunction of simple objects to make a complex concept like a man on a horse). Such objects can be compared or judged to see if they agree or not. While reasoning, for Whately, is proceeding from initial judgements to subsequent judgements based on the results of earlier comparisons or new apprehensions (@whately1826elements, pp. 251-252).  This cyclical learning from earlier information or judgements is reminiscent of what will become “Bayes theorem” where new observations update prior probabilities. Boole will build upon the Whately’s stance that information was the sense derived cognitive representation of an external object on which the mind acted.
+
 
 \newpage

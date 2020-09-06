@@ -108,20 +108,97 @@ Here Boole argues for the duality of the cognitive objects being based on the in
 
 Having established the primacy of abstractions as the objects of cognition, Boole turns to the central construct of his work;
 
-*” It is designed, in the next place, to give expression in this treatise to the fundamental laws of reasoning in the symbolical language of a Calculus. Upon this head it will suffice to say, that those laws are such as to suggest this mode of expression, and to give to it a peculiar and exclusive fitness for the ends in view. There is not only a close analogy between the operations of the mind in general reasoning and its operations in the particular science of Algebra, but there is to a considerable extent an exact agreement in the laws by which the two classes of operations are conducted. Of course the laws must in both cases be determined independently; any formal agreement between them can only be established a posteriori by actual comparison“*, (@boole1854investigations, para1.6).
+*” It is designed, in the next place, to give expression in this treatise to the fundamental laws of reasoning in the symbolical language of a Calculus. Upon this head it will suffice to say, that those laws are such as to suggest this mode of expression, and to give to it a peculiar and exclusive fitness for the ends in view. There is not only a close analogy between the operations of the mind in general reasoning and its operations in the particular science of Algebra, but there is to a considerable extent an exact agreement in the laws by which the two classes of operations are conducted. Of course the laws must in both cases be determined independently; any formal agreement between them can only be established a posteriori by actual comparison“*, (@boole1854investigation, para1.6).
 
 Before acknowledging that there must be some form of parity between the nature and actions of external objects and internal abstractions;
 
-*” Logic is conversant with two kinds of relations,{relations among things, and relations among facts. But as facts are expressed by propositions, the latter species of relation may, at least for the purposes of Logic, be resolved into a relation among propositions. The assertion that the fact or event A is an invariable consequent of the fact or event B may, to this extent at least, be regarded as equivalent to the assertion, that the truth of the proposition arming the occurrence of the event B always implies the truth of the proposition arming the occurrence of the event A.“* (@boole1854investigations, para 1.7).
+*” Logic is conversant with two kinds of relations,{relations among things, and relations among facts. But as facts are expressed by propositions, the latter species of relation may, at least for the purposes of Logic, be resolved into a relation among propositions. The assertion that the fact or event A is an invariable consequent of the fact or event B may, to this extent at least, be regarded as equivalent to the assertion, that the truth of the proposition arming the occurrence of the event B always implies the truth of the proposition arming the occurrence of the event A.“* (@boole1854investigation, para 1.7).
 
 To give structure to his calculus Boole argues that;
 
-*” Of the former kind of relations we have an example in the proposition “All men are mortal;" of the latter kind in the proposition “If the sun is totally eclipsed, the stars will become visible." The one expresses a relation between “men" and “mortal beings," the other between the elementary propositions “The sun is totally eclipsed;" “The stars will become visible." … Proceeding from this definition, we may then say that the premises of any logical argument express given relations among certain elements, and that the conclusion must express an implied relation among those elements, or among a part of them, i.e. a relation implied by or inferentially involved in the premises.  “* (@boole1854investigations, para1.7).
+*” Of the former kind of relations we have an example in the proposition “All men are mortal;" of the latter kind in the proposition “If the sun is totally eclipsed, the stars will become visible." The one expresses a relation between “men" and “mortal beings," the other between the elementary propositions “The sun is totally eclipsed;" “The stars will become visible." … Proceeding from this definition, we may then say that the premises of any logical argument express given relations among certain elements, and that the conclusion must express an implied relation among those elements, or among a part of them, i.e. a relation implied by or inferentially involved in the premises.  “* (@boole1854investigation, para 1.7).
 
 A position which is analogous to his description of the relations between general truths based on repeated observations and their probable predictive power as discussed earlier.
 
 **This assumption of the primacy of determinism based on abstract reasoning over probablmism based on observation as the basis for the universe will have far reaching effects, given the role of Boole's influence in information and computer science.**
 
+Boole’s ontology continued
+Boole returns to the dualism between the abstract and the probabilistic objects of cognition.  As before, these entities remain distinct but exist in parallel so allowing his calculus to be applied to both;
+
+*” The general doctrine and method of Logic above explained form also the basis of a theory and corresponding method of Probabilities. Accordingly, the development of such a theory and method, upon the above principles, will constitute a distinct object of the present treatise.*
+
+…
+
+*Speaking technically, we must be able to express the event whose probability is sought, as a function of the events whose probabilities are given. Now this explicit determination belongs in all instances to the department of Logic. Probability, however, in its mathematical acceptation, admits of numerical measurement. Hence the subject of Probabilities belongs equally to the science of Number and to that of Logic.“* (@boole1854investigation, para 1.12)
+
+Boole uses the term data with respect to understanding probability as follows;
+
+*” Considered with reference to the data and the quaesitum, that type may be described as follows:*
+
+*1st. The data are the probabilities of one or more given events, each probability being either that of the absolute fulfilment of the event to which it relates, or the probability of its fulfilment under given supposed conditions. *
+
+*2ndly. The quaesitum, or object sought, is the probability of the fulfilment, absolutely or conditionally, of some other event differing in expression from those in the data, but more or less involving the same elements. As concerns the data, they are either causally given,- as when the probability of a particular throw of a die is deduced from a knowledge of the constitution of the piece - or they are derived from observation of repeated instances of the success or failure of events. In the latter case the probability of an event may be de ned as the limit toward which the ratio of the favourable to the whole number of observed cases approaches (the uniformity of nature being presupposed) as the observations are indefinitely continued.“*, (@boole1854investigation, para 1.13).
+
+Suggesting that data is numbers driven by the laws of probability and related to the observed external world. As opposed to information which is the single abstract entity from which a proven fundamental law can rest. What is not clear from Boole’s work is the relationship between data and information, or more simply if the latter is not derived from sense data then how it is formed? If it is formed from sense data, then why is it exempt from the laws of probability that underpin Boole’s experienced universe?
+
+Boole argues that external events are simple or compound;
+
+*” Now one general problem, which the existing theory of Probabilities enables us to solve, is the following, viz.:-Given the probabilities of any simple events: required the probability of a given compound event, i.e. of an event compounded in a given manner out of the given simple events.“*, (@boole1854investigation, para 1.14).
+
+Where compound events are often linked by either simple association or by “cause and effect”.
+
+*” The problem can also be solved when the compound event, whose probability is required, is subjected to given conditions, i.e. to conditions dependent also in a given manner on the given simple events. Beside this general problem, there exist also particular problems of which the principle of solution is known. Various questions relating to causes and effects can be solved by known methods under the particular hypothesis that the causes are mutually exclusive, but apparently not otherwise.“* (@boole1854investigation, para 1.14).
+
+Although he does not expand on the differences between a simple association and specific causation for the existence of compound events. Boole states that even events with an apparent cause to the observed effects are still only secondary objects as they can not support general truths like an abstract object.
+
+*” All sciences consist of general truths, but of those truths some only are primary and fundamental, others are secondary and derived. The laws of elliptic motion, discovered by Kepler, are general truths in astronomy, but they are not its fundamental truths.“* (@boole1854investigation, para 1.5)
+
+Given Boole’s claim that;
+
+*” In the first place it is always possible, by the preliminary method of the Calculus of Logic, to express the event whose probability is sought as a logical function of the events whose probabilities are given.“*, (@boole1854investigation, para 1.15)
+
+It would be tempting to suggest that Boole’s resolution of the duality between the abstract and the probabilistic is that both can be objects within his logical calculus. So although they have different concepts, and one has primacy over the other, both are still objects of the laws of thought.
+
+## Law of duality
+Boole’s proposed his law of duality;
+
+\begin{equation}
+x(1-x) = 0
+\end{equation}
+
+*" Hence x(1-x) will represent the class whose members are at once "men," and "not men," and the equation (1) thus express the principle, that a class whose members are at the same time men and not men does not exist. In other words, that it is impossible for the same individual to be at the same time a man and not a man.  Now let the meaning of the symbol x be extended from the representing of "men," to that of any class of beings characterized by the possession of any quality whatever; and the equation (1) will then express that it is impossible for a being to possess a quality and not to possess that quality at the same time...Thus it is a consequence of the fact that the fundamental equation of thought is of the second degree, that we perform the operation of analysis and classification, by division into pairs of opposites, or, as it is technically said, by dichotomy.'* (@boole1854investigation, para 3.15)
+
+Where Boole means that an equation of the second degree is one where;
+
+\begin(equation}
+x^2 = x
+\end{equation}
+
+And a third order equation would be to the third power. Boole then goes onto to define the above as the law of duality;
+
+*"The law of thought expressed by the equation (1) will, for reasons which are made apparent by the above discussion, be occasionally referred to as the "law of duality."* (@boole1854investigation, para 3.16)
+
+Boole makes extensive use of this law of duality is the algebraic resolution of the propositions. 
+
+*“We may arm, that in this peculiar system, the problem of elimination is resolvable under all circumstances alike. This is a consequence of that remarkable law of duality to which the symbols of Logic are subject. To the equations furnished by the premises given, there is added another equation or system of equations drawn from the fundamental laws of thought itself, and supplying the necessary means for the solution of the problem in question. Of the many consequences which flow from the law of duality, this is perhaps the most deserving of attention. "* (@boole1854investigation, para 7.2)
+
+Thus for Boole, the dualism between external realism and internal cognitive objects is not in the sense of Cartesian dualism, rather it is the dualism of opposites. 
+
+*“The famous comparison of the universe to a lyre or a bow, its “recurrent harmony" being the product of opposite states of tension, betrays the same origin. In the system of Pythagoras, which seems to have been a combination of dualism with other elements derived from the study of numbers, and of their relations, ten fundamental antitheses are recognised:  finite and infinite, even and odd, unity and multitude, right and left, male and female, rest and motion, straight and curved, light and darkness, good and evil, the square and the oblong ”*  (@boole1854investigation, para 12.7)
+
+Leading to him adopting a position more akin to Socrate’s Cave and the theory of forms;
+
+*“The unity of all real being, its identity with truth and goodness considered as to their essence; the illusion, the pro-found unreality, of all merely phenomenal existence; such were the views,|such the dispositions of thought, which it chiefly tended to foster. *” (@boole1854investigation, para 12.7)
+
+And
+
+*"Were this correspondence between the forms of thought and the actual constitution of Nature proved to exist, whatsoever connexion or relation it might be supposed to establish between the two systems, it would in no degree affect the question of their mutual independence."* (@boole1854investigation, para 12.8)
+
+So that
+
+*"We have no warrant for resolving these into mere forms of the understanding, though they unquestionably determine the present sphere of our knowledge. And, to speak more generally, there is no warrant for the extremely subjective tendency of much modern speculation. Whenever, in the view of the intellect, different hypotheses are equally consistent with an observed fact, the instinctive testimony of consciousness as to their relative value must be allowed to possess authority. ”* (@boole1854investigation, para 12.8)
+
+For Boole then, the cognitive objectives that were manipulated by his algebra were Socratic rather than Cartesian in nature, where the cognitive object was the pure form on which the purity of mathematical thought could be applied.
 
 
 \newpage

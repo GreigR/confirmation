@@ -54,7 +54,8 @@ To counter this perception, @whately1826elements published a widely popular defe
 
 In “Of the Operations of the Mind and of Terms”, Whately starts to consider what Boole would expand upon (@whately1826elements, p. 251). Namely, the three states within the mind. The first is “Simple-apprehension” is the sense perception of an object. Such apprehension can be either “incomplex” (or a single object like a horse) or complex (or conjunction of simple objects to make a complex concept like a man on a horse). Such objects can be compared or judged to see if they agree or not. While reasoning, for Whately, is proceeding from initial judgements to subsequent judgements based on the results of earlier comparisons or new apprehensions (@whately1826elements, pp. 251-252).  This cyclical learning from earlier information or judgements is reminiscent of what will become “Bayes theorem” where new observations update prior probabilities. Boole will build upon the Whately’s stance that information was the sense derived cognitive representation of an external object on which the mind acted.
 
-##Boole's Ontology
+## Boole's ontology
+### Boole's dualism
 
 Boole appears to be caught in a quandary about the apparent nature of external reality and the internal objects of cognition.
 
@@ -128,65 +129,57 @@ It would be tempting to suggest that Boole’s resolution of the duality between
 
 Boole addresses the issue brought up subsequently by others as a source of criticism. The question  Boole posed was;
 
-*” That Language is an instrument of human reason, and not merely a medium for the expression of thought, is a truth generally admitted. It is proposed in this chapter to inquire what it is that renders Language thus subservient to the most important of our intellectual faculties… In proceeding to these inquiries, it will not be necessary to enter into the discussion of that famous question of the schools, whether Language is to be regarded as an essential instrument of reasoning, or whether, on the other hand, it is possible for us to reason without its aid. “*(@boole1854investigations, para 2.1)
+*” That Language is an instrument of human reason, and not merely a medium for the expression of thought, is a truth generally admitted. It is proposed in this chapter to inquire what it is that renders Language thus subservient to the most important of our intellectual faculties… In proceeding to these inquiries, it will not be necessary to enter into the discussion of that famous question of the schools, whether Language is to be regarded as an essential instrument of reasoning, or whether, on the other hand, it is possible for us to reason without its aid. “*(@boole1854investigation, para 2.1)
 
 Following his dualism, Boole argued;
 
-*” I suppose this question to be beside the design of the present treatise, for the following reason, viz., that it is the business of Science to investigate laws; and that, whether we regard signs as the representatives of things and of their relations, or as the representatives of the conceptions and operations of the human intellect, in studying the laws of signs, we are in effect studying the manifested laws of reasoning.”* (@boole1854investigations, para 2.1)
+*” I suppose this question to be beside the design of the present treatise, for the following reason, viz., that it is the business of Science to investigate laws; and that, whether we regard signs as the representatives of things and of their relations, or as the representatives of the conceptions and operations of the human intellect, in studying the laws of signs, we are in effect studying the manifested laws of reasoning.”* (@boole1854investigation, para 2.1)
 
 The consideration of the laws of signs a posteriori is the study of language, while from the above consideration of the law of the signs a priori is the laws of reasoning. Boole goes onto to define a sign as;
 
-*” Definition - A sign is an arbitrary mark, having a  fixed interpretation, and susceptible of combination with other signs in subjection to fixed laws dependent upon their mutual interpretation. “*  (@boole1854investigations, para 2.2)
+*” Definition - A sign is an arbitrary mark, having a  fixed interpretation, and susceptible of combination with other signs in subjection to fixed laws dependent upon their mutual interpretation. “*  (@boole1854investigation, para 2.2)
 
 And to further clarify the relationship between the mark and its label;
 
-*” In the first place, a sign is an arbitrary mark. It is clearly indifferent what particular word or token we associate with a given idea, provided that the association once made is permanent. The Romans expressed by the word “civitas" what we designate by the word “state." But both they and we might equally well have employed any other word to represent the same conception “*  (@boole1854investigations, para 2.3)
+*” In the first place, a sign is an arbitrary mark. It is clearly indifferent what particular word or token we associate with a given idea, provided that the association once made is permanent. The Romans expressed by the word “civitas" what we designate by the word “state." But both they and we might equally well have employed any other word to represent the same conception “*  (@boole1854investigation, para 2.3)
 
 And 
 
-*” In the second place, it is necessary that each sign should possess, within the limits of the same discourse or process of reasoning, a fixed interpretation. The necessity of this condition is obvious, and seems to be founded in the very nature of the subject. “* (@boole1854investigations, para 2.3)
+*” In the second place, it is necessary that each sign should possess, within the limits of the same discourse or process of reasoning, a fixed interpretation. The necessity of this condition is obvious, and seems to be founded in the very nature of the subject. “* (@boole1854investigation, para 2.3)
 
 Boole then, having defined to his satisfaction the link between language, a mark and the pure form of the objects internal mental representation, sets forth to define his algebra.
 
-Without labouring this algebra, Boole argues that simple notations like addition, subtraction, multiplication and division all represent operations of the mind on these objects, with “=” denoting identity  (@boole1854investigations, para 2.4).
-
-Boole goes onto to discuss how a symbol like **x** represents all men or the class of men. As will be discussed later this seen by some authors as Boole embracing and describing set theory, although Boole does not use this term and explicitly says he is using logic to consider the laws of reasoning.
-
-*” Now, as it has been defined that a sign is an arbitrary mark, it is permissible to replace all signs of the species above described by letters. Let us then agree to represent the class of individuals to which a particular name or description is applicable, by a single letter, as x. If the name is “men," for instance, let x represent “all men," or the class “men." “*  (@boole1854investigations, para 2.6)
-
-And further;
-
-*” By a class is usually meant a collection of individuals, to each of which a particular name or description may be applied; but in this work the meaning of the term will be extended so as to include the case in which but a single individual exists, answering to the required name or description, as well as the cases denoted by the terms “nothing" and “universe," which as “classes" should be understood to comprise respectively “no beings," “all beings." Again, if an adjective, as “good," is employed as a term of description, let us represent by a letter, as y, all things to which the description “good" is applicable, i.e. “all good things," or the class "good things." Let it further be agreed, that by the combination xy shall be represented that class of things to which the names or descriptions represented by x and y are simultaneously applicable. Thus, if x alone stands for “white things," and y for “sheep," let xy stand for “white sheep;" and in like manner, if z stand for “horned things," and x and y retain their previous interpretations, let zxy represent “horned white sheep,“* (@boole1854investigations, para 2.6).
-
-Boole then clarifies that what is defined is a law of thought and not a law of things;
-
-*”  First, I would remark, that this law is a law of thought, and not, properly speaking, a law of things. Difference in the order of the qualities or attributes of an object, apart from all questions of causation, is a difference in conception merely. The law [xy = yx] expresses as a general truth, that the same thing may be conceived in different ways, and states the nature of that difference; and it does no more than this.  “*
-
-And
-
-*”  As a law of thought, it is actually developed in a law of Language, the product and the instrument of thought “*
+Without labouring this algebra, Boole argues that simple notations like addition, subtraction, multiplication and division all represent operations of the mind on these objects, with “=” denoting identity  (@boole1854investigation, para 2.4).
 
 
-### Boole's law of duality 
+## Boole's logical algebra 
 As stated earlier, @boole1854investigation seeks to bridge the gap between words and symbols, built on the preface “that Language is an instrument of human reason (p. 17)” although admitting that some have argued to reason without such an assumption.
 
-The formulation rules of Boole’s algebra are;
+The formulation rules of Boole’s algebra ((@boole1854investigation, para 2.4)) are;
 
-A language consists of words which are signs or symbols, where a sign is admittedly arbitrary in its definition, within a given context and other associated signs.
-Such an arbitrary definition may be contextual but within that context, it is also consistent within that context.
-Such conceptual signs are represented by symbols as x, y…
-+, -, * are signs of operation by which conceptual signs are combined or similar...
-= is the sign for identity.
-A combination of signs like “xy” is taken as the combination of x ^ y.
-Given 6, then “xy = yx”.
+1. A language consists of words which are signs or symbols, where a sign is admittedly arbitrary in its definition, within a given context and other associated signs.
+2. Such an arbitrary definition may be contextual but within that context, it is also consistent within that context.
+3. Such conceptual signs are represented by symbols as x, y…
+4. +, -, * are signs of operation by which conceptual signs are combined or similar...
+5. = is the sign for identity.
+6. A combination of signs like “xy” is taken as the combination of x ^ y.
+7. Given 6, then “xy = yx”.
 
-Then Boole’s key insight can be developed;
+Then Boole’s key mechanism can be developed;
 
 \begin{equation}
  xy = x
 \end{equation}
 
-Which is taken to mean for a combination object “white horned sheep” expresses a class of objects like all sheep. Then consider the case where;
+Boole goes onto to discuss how a symbol like **x** represents all men or the class of men. As will be discussed later this seen by some authors as Boole embracing and describing set theory, although Boole does not use this term and explicitly says he is using logic to consider the laws of reasoning.
+
+*” Now, as it has been defined that a sign is an arbitrary mark, it is permissible to replace all signs of the species above described by letters. Let us then agree to represent the class of individuals to which a particular name or description is applicable, by a single letter, as x. If the name is “men," for instance, let x represent “all men," or the class “men." “*  (@boole1854investigation, para 2.6)
+
+And further;
+
+*” By a class is usually meant a collection of individuals, to each of which a particular name or description may be applied; but in this work the meaning of the term will be extended so as to include the case in which but a single individual exists, answering to the required name or description, as well as the cases denoted by the terms “nothing" and “universe," which as “classes" should be understood to comprise respectively “no beings," “all beings." Again, if an adjective, as “good," is employed as a term of description, let us represent by a letter, as y, all things to which the description “good" is applicable, i.e. “all good things," or the class "good things." Let it further be agreed, that by the combination xy shall be represented that class of things to which the names or descriptions represented by x and y are simultaneously applicable. Thus, if x alone stands for “white things," and y for “sheep," let xy stand for “white sheep;" and in like manner, if z stand for “horned things," and x and y retain their previous interpretations, let zxy represent “horned white sheep,“* (@boole1854investigation, para 2.6).
+
+Then he consider the special the case where;
 
 \begin{equation}
  xx = x
@@ -199,6 +192,7 @@ Which is the case where x is of the same class as y. Hence;
 \end{equation}
 
 Which is only true if x = 0 or x = 1.
+
 
 Boole’s proposed his law of duality;
 
@@ -214,7 +208,11 @@ Where Boole means that an equation of the second degree is one where;
 x^2 = x
 \end{equation}
 
-And a third order equation would be to the third power. Boole then goes onto to define the above as the law of duality;
+And a third order equation would be to the third power. 
+
+### Boole's law of duality
+
+Boole then goes onto to define the above as the law of duality;
 
 *"The law of thought expressed by the equation (1) will, for reasons which are made apparent by the above discussion, be occasionally referred to as the "law of duality."* (@boole1854investigation, para 3.16)
 
@@ -238,122 +236,130 @@ So that
 
 *"We have no warrant for resolving these into mere forms of the understanding, though they unquestionably determine the present sphere of our knowledge. And, to speak more generally, there is no warrant for the extremely subjective tendency of much modern speculation. Whenever, in the view of the intellect, different hypotheses are equally consistent with an observed fact, the instinctive testimony of consciousness as to their relative value must be allowed to possess authority. ”* (@boole1854investigation, para 12.8)
 
-For Boole then, the cognitive objectives that were manipulated by his algebra were Paltonic rather than Cartesian in nature, where the cognitive object was the pure form on which the purity of mathematical thought could be applied.
+For Boole then, the cognitive objectives that were manipulated by his algebra were Platonic rather than Cartesian in nature, where the cognitive object was the pure form on which the purity of mathematical thought could be applied.
 
+Boole then clarifies that what is defined is a law of thought and not a law of things;
+
+*”  First, I would remark, that this law is a law of thought, and not, properly speaking, a law of things. Difference in the order of the qualities or attributes of an object, apart from all questions of causation, is a difference in conception merely. The law [xy = yx] expresses as a general truth, that the same thing may be conceived in different ways, and states the nature of that difference; and it does no more than this.  “*
+
+And
+
+*”  As a law of thought, it is actually developed in a law of Language, the product and the instrument of thought “*
 
 The third chapter is fascinating given its title *” Derivation Of The Laws Of The Symbols Of Logic From The Laws Of The Operations Of The Human Mind. “*  as it might be seen that Boole used the former to define the later but now wishes to beg the question.
 
 Boole certainly agreed with Hume on [find an appropriate reference] the empiricist view that causation was nothing more than regularity of conjunction between cause and effect, built upon impressions of the external world. With such being key to science;
 
-*”  The object of science, properly so called, is the knowledge of laws and relations. To be able to distinguish what is essential to this end, from what is only accidentally associated with it, is one of the most important conditions of scientific progress… Such questions, for instance, as the existence of a sustaining ground of phenomena, the reality of cause, the propriety of forms of speech implying that the successive states of things are connected by operations, and others of a like nature, may possess a deep interest and significance in relation to science, without being essentially scientific. It is indeed scarcely possible to express the conclusions of natural science without borrowing the language of these conceptions. “*  (@boole1854investigations, para 3.1)
+*”  The object of science, properly so called, is the knowledge of laws and relations. To be able to distinguish what is essential to this end, from what is only accidentally associated with it, is one of the most important conditions of scientific progress… Such questions, for instance, as the existence of a sustaining ground of phenomena, the reality of cause, the propriety of forms of speech implying that the successive states of things are connected by operations, and others of a like nature, may possess a deep interest and significance in relation to science, without being essentially scientific. It is indeed scarcely possible to express the conclusions of natural science without borrowing the language of these conceptions. “*  (@boole1854investigation, para 3.1)
 
 He then attempts to define parallelism from his Humian position to the laws of reasoning. 
 
-*” I would here assert, as affording us the only ground of confidence and stability amid so much of seeming and of real diversity, is the following, viz., that if the laws in question are really deduced from observation, they have a real existence as laws of the human mind, independently of any metaphysical theory which may seem to be involved in the mode of their statement. They contain an element of truth which no ulterior criticism upon the nature, or even upon the reality, of the mind's operations, can essentially affect. “* (@boole1854investigations, para 3.2)
+*” I would here assert, as affording us the only ground of confidence and stability amid so much of seeming and of real diversity, is the following, viz., that if the laws in question are really deduced from observation, they have a real existence as laws of the human mind, independently of any metaphysical theory which may seem to be involved in the mode of their statement. They contain an element of truth which no ulterior criticism upon the nature, or even upon the reality, of the mind's operations, can essentially affect. “* (@boole1854investigation, para 3.2)
 
 For Boole, the laws of reasoning within the mind are not independent with our understanding of the external world.
 
-*”  Moreover, as any statement of the laws of thought, founded upon actual observation, must thus contain scientific elements which are independent of metaphysical theories of the nature of the mind, the practical application of such elements to the construction of a system or method of reasoning must also be independent of metaphysical distinctions. For it is upon the scientific elements involved in the statement of the laws, that any practical application will rest, just as the practical conclusions of physical astronomy are independent of any theory of the cause of gravitation, but rest only on the knowledge of its phenomenal effects.“* (@boole1854investigations, para 3.2).
+*”  Moreover, as any statement of the laws of thought, founded upon actual observation, must thus contain scientific elements which are independent of metaphysical theories of the nature of the mind, the practical application of such elements to the construction of a system or method of reasoning must also be independent of metaphysical distinctions. For it is upon the scientific elements involved in the statement of the laws, that any practical application will rest, just as the practical conclusions of physical astronomy are independent of any theory of the cause of gravitation, but rest only on the knowledge of its phenomenal effects.“* (@boole1854investigation, para 3.2).
 
 Although such a position would not be accepted now, for Boole it allowed him to argue that the process of cognition was independent of the neuroanatomical process which underpins cognition. 
 
-*”  To those faculties or powers different names, as Attention, Simple Apprehension, Conception or Imagination, Abstraction, &c., have been given,|names which have not only furnished the titles of distinct divisions of the philosophy of the human mind, but passed into the common language of men. Whenever, then, occasion shall occur to use these terms, I shall do so without implying thereby that I accept the theory that the mind possesses such and such powers and faculties as distinct elements of its activity. Nor is it indeed necessary to inquire whether such powers of the understanding have a distinct existence or not. “* (@boole1854investigations, para 3.3).
+*”  To those faculties or powers different names, as Attention, Simple Apprehension, Conception or Imagination, Abstraction, &c., have been given,|names which have not only furnished the titles of distinct divisions of the philosophy of the human mind, but passed into the common language of men. Whenever, then, occasion shall occur to use these terms, I shall do so without implying thereby that I accept the theory that the mind possesses such and such powers and faculties as distinct elements of its activity. Nor is it indeed necessary to inquire whether such powers of the understanding have a distinct existence or not. “* (@boole1854investigation, para 3.3).
 
 Boole then proposed a framework for the consideration of the laws of reason.
 
 Firstly that;
 
-*” In every discourse, whether of the mind conversing with its own thoughts, or of the individual in his intercourse with others, there is an assumed or expressed limit within which the subjects of its operation are confined...Now, whatever may be the extent of the field within which all the objects of our discourse are found, that field may properly be termed the universe of discourse. “* (@boole1854investigations, para 3.4)
+*” In every discourse, whether of the mind conversing with its own thoughts, or of the individual in his intercourse with others, there is an assumed or expressed limit within which the subjects of its operation are confined...Now, whatever may be the extent of the field within which all the objects of our discourse are found, that field may properly be termed the universe of discourse. “* (@boole1854investigation, para 3.4)
 
 And
 
-*” Furthermore, this universe of discourse is in the strictest sense the ultimate subject of the discourse...If that universe of discourse is the actual universe of things, which it always is when our words are taken in their real and literal sense, then by men we mean all men that exist; but if the universe of discourse is limited by any antecedent implied understanding, then it is of men under the limitation thus introduced that we speak.“*  (@boole1854investigations, para 3.5)
+*” Furthermore, this universe of discourse is in the strictest sense the ultimate subject of the discourse...If that universe of discourse is the actual universe of things, which it always is when our words are taken in their real and literal sense, then by men we mean all men that exist; but if the universe of discourse is limited by any antecedent implied understanding, then it is of men under the limitation thus introduced that we speak.“*  (@boole1854investigation, para 3.5)
 
 Boole then formulated the value and the significance of 0. 
 
-*” To determine the logical value and significance of the symbols 0 and 1. The symbol 0, as used in Algebra, satisfies the following formal law, 0y = 0; or 0y = 0; whatever number y may represent...A little consideration will show that this condition is satisfied if the symbol 0 represent Nothing“* (@boole1854investigations, para 3.13).
+*” To determine the logical value and significance of the symbols 0 and 1. The symbol 0, as used in Algebra, satisfies the following formal law, 0y = 0; or 0y = 0; whatever number y may represent...A little consideration will show that this condition is satisfied if the symbol 0 represent Nothing“* (@boole1854investigation, para 3.13).
 
 And the significance of 1;
 
-*” Secondly, The symbol 1 satisfies in the system of Number the following law, viz., 1*y = y; or 1y = y; whatever number y may represent...A little consideration will here show that the class represented by 1 must be "the Universe," since this is the only class in which are found all the individuals that exist in any class. Hence the respective interpretations of the symbols 0 and 1 in the system of Logic are Nothing and Universe. “* (@boole1854investigations, para 3.13).
+*” Secondly, The symbol 1 satisfies in the system of Number the following law, viz., 1 [times] y = y; or 1y = y; whatever number y may represent...A little consideration will here show that the class represented by 1 must be "the Universe," since this is the only class in which are found all the individuals that exist in any class. Hence the respective interpretations of the symbols 0 and 1 in the system of Logic are Nothing and Universe. “* (@boole1854investigation, para 3.13).
 
 So while the Universe of Discourse has become fundamental to the study of Logic, that 0 is Nothing and 1 is the Universal has a similarly fundamental role in both the fields of logic and computer science. These are not arbitrary decisions, as so often is assumed. What will be seen later is that authors like Alonso Church did not automatically assume that 0 and 1 were numbers, rather that they were False and True. Modern computer languages often adopt a  messy state of “it depends” with some using a variable type such as a  Logical representing state of False or True but these are often represented internally as 0 or 1. Switching the data type from logical to an Integer allows numerous clever programmatic tricks to be performed on the altar of efficiency or expediency. 
 
+### Propositions
+
 Boole divided propositions into primary or concrete propositions or secondary and abstract propositions;
 
-*” Proposition I. All logical propositions may be considered as belonging to one or the other of two great classes, to which the respective names of “Primary" or “Concrete Propositions," and “Secondary" or “Abstract Propositions," may be given.“* (@boole1854investigations, para 4.1).
+*” Proposition I. All logical propositions may be considered as belonging to one or the other of two great classes, to which the respective names of “Primary" or “Concrete Propositions," and “Secondary" or “Abstract Propositions," may be given.“* (@boole1854investigation, para 4.1).
 
 He further clarifies this; 
 
-*” Either it expresses a relation among things, or it expresses, or is equivalent to the expression of, a relation among propositions...The former class of propositions, relating to things, I call “Primary;" the latter class, relating to propositions, I call “Secondary.“*  (@boole1854investigations, para 4.1).
+*” Either it expresses a relation among things, or it expresses, or is equivalent to the expression of, a relation among propositions...The former class of propositions, relating to things, I call “Primary;" the latter class, relating to propositions, I call “Secondary.“*  (@boole1854investigation, para 4.1).
 
 
 With a slight reference to Kant’s categorical or hypothetical propositions;
 
-*Tthe distinction is in practice nearly but not quite co-extensive with the common logical distinction of propositions as categorical or hypothetical.“* (@boole1854investigations, para 4.1).
+*"The distinction is in practice nearly but not quite co-extensive with the common logical distinction of propositions as categorical or hypothetical.“* (@boole1854investigation, para 4.1).
 
 And Boole was happy for a secondary proposition to imply causation if regular in its conjunction. Likewise;
 
-* “ Every primary proposition may thus give rise to a secondary proposition, viz., to that secondary proposition which asserts its truth, or declares its falsehood. “* (@boole1854investigations, para 4.2).
+*“ Every primary proposition may thus give rise to a secondary proposition, viz., to that secondary proposition which asserts its truth, or declares its falsehood.“* (@boole1854investigation, para 4.2).
 
 But at the end of the day;
 
-*” In the expression both of primary and of secondary propositions, the same symbols, subject, as it will appear, to the same laws, will be employed in this work. The difference between the two cases is a difference not of form but of interpretation.“* (@boole1854investigations, para 4.3)
+*” In the expression both of primary and of secondary propositions, the same symbols, subject, as it will appear, to the same laws, will be employed in this work. The difference between the two cases is a difference not of form but of interpretation.“* (@boole1854investigation, para 4.3)
 
-Thesis_Ontology_0.7
 
 Boole further clarifies his Platonic dualism on the nature of reality with respect to Primary propositions, namely the abstract nature of things.
 
-*” I would then remark, that the principle in question may be considered as resting upon a general law of the mind, the knowledge of which is not given to us a priori, i.e. antecedently to experience, but is derived, like the knowledge of the other laws of the mind, from the clear manifestation of the general principle in the particular instance...No accumulation of instances can properly add weight to such evidence. It may furnish us with clearer conceptions of that common element of truth upon which the application of the principle depends, and so prepare the way for its reception. It may, where the immediate force of the evidence is not felt, serve as a verification,  a posteriori, of the practical validity of the principle in question.  “*(@boole1854investigations, para 5.5)
+*” I would then remark, that the principle in question may be considered as resting upon a general law of the mind, the knowledge of which is not given to us a priori, i.e. antecedently to experience, but is derived, like the knowledge of the other laws of the mind, from the clear manifestation of the general principle in the particular instance...No accumulation of instances can properly add weight to such evidence. It may furnish us with clearer conceptions of that common element of truth upon which the application of the principle depends, and so prepare the way for its reception. It may, where the immediate force of the evidence is not felt, serve as a verification,  a posteriori, of the practical validity of the principle in question.  “*(@boole1854investigation, para 5.5)
 
 And again;
 
-*”I answer, that the mind assumes the existence of a universe not a priori as a fact independent of experience, but either a posteriori as a deduction from experience, or hypothetically as a foundation of the possibility of assertive reasoning. “* (@boole1854investigations, para 6.6)
+*”I answer, that the mind assumes the existence of a universe not a priori as a fact independent of experience, but either a posteriori as a deduction from experience, or hypothetically as a foundation of the possibility of assertive reasoning. “* (@boole1854investigation, para 6.6)
 
 In contrast to secondary propositions, which he now refines the definition to be;
 
-*” The doctrine has already been established in Chap. IV., that every logical proposition may be referred to one or the other of two great classes, viz., Primary Propositions and Secondary Propositions. The former of these classes has been discussed in the preceding chapters of this work, and we are now led to the consideration of Secondary Propositions, i.e. of Propositions concerning, or relating to, other propositions regarded as true or false. “* (@boole1854investigations, para 11.1).
+*” The doctrine has already been established in Chap. IV., that every logical proposition may be referred to one or the other of two great classes, viz., Primary Propositions and Secondary Propositions. The former of these classes has been discussed in the preceding chapters of this work, and we are now led to the consideration of Secondary Propositions, i.e. of Propositions concerning, or relating to, other propositions regarded as true or false. “* (@boole1854investigation, para 11.1).
 
 And
 
-*” The relations of things we express by primary propositions. But we are able to make Propositions themselves also the subject of thought, and to express our judgments concerning them. The expression of any such judgment constitutes a secondary proposition.“* (@boole1854investigations, para 11.2).
+*” The relations of things we express by primary propositions. But we are able to make Propositions themselves also the subject of thought, and to express our judgments concerning them. The expression of any such judgment constitutes a secondary proposition.“* (@boole1854investigation, para 11.2).
 
 But also such conditional propositions so that;
 
-*” Secondary propositions also include all judgments by which we express a relation or dependence among propositions...It may involve both the disjunctive element expressed by either, or, and the conditional element expressed by if; in addition to which, the connected propositions may themselves be of a compound character. “* (@boole1854investigations, para 11.2).
+*” Secondary propositions also include all judgments by which we express a relation or dependence among propositions...It may involve both the disjunctive element expressed by either, or, and the conditional element expressed by if; in addition to which, the connected propositions may themselves be of a compound character. “* (@boole1854investigation, para 11.2).
 
 Although Boole did acknowledge that for his algebra for both would be similar;
 
-*” The investigation upon which we are entering will, in its general order and progress, resemble that which we have already conducted. The two inquiries differ as to the subjects of thought which they recognise, not as to the formal and scientific laws which they reveal, or the methods or processes which are founded upon those laws.“* (@boole1854investigations, para 11.1).
+*” The investigation upon which we are entering will, in its general order and progress, resemble that which we have already conducted. The two inquiries differ as to the subjects of thought which they recognise, not as to the formal and scientific laws which they reveal, or the methods or processes which are founded upon those laws.“* (@boole1854investigation, para 11.1).
 
 And 
-*” The discussion of the theory of Secondary Propositions is in the next place interesting, from the close and remarkable analogy which it bears with the theory of Primary Propositions. It will appear, that the formal laws to which the operations of the mind are subject, are identical in expression in both cases. The mathematical processes which are founded on those laws are, therefore, identical also.“* (@boole1854investigations, para 11.4).
+*” The discussion of the theory of Secondary Propositions is in the next place interesting, from the close and remarkable analogy which it bears with the theory of Primary Propositions. It will appear, that the formal laws to which the operations of the mind are subject, are identical in expression in both cases. The mathematical processes which are founded on those laws are, therefore, identical also.“* (@boole1854investigation, para 11.4).
 
 Where they differ for Boole was.
 
-*” But in treating of secondary propositions, we  find ourselves concerned with another class both of subjects and relations...the relations among these subject propositions are relations of coexistent truth or falsehood, not of substantive equivalence.“* (@boole1854investigations, para 11.5).
+*” But in treating of secondary propositions, we  find ourselves concerned with another class both of subjects and relations...the relations among these subject propositions are relations of coexistent truth or falsehood, not of substantive equivalence.“* (@boole1854investigation, para 11.5).
 
 And with the element of time as well;
 
-*” The language of common life sanctions this view of the essential connexion of secondary propositions with the notion of time...There are indeed propositions, the truth of which is not thus limited to particular periods or conjunctures; propositions which are true throughout all time, and have received the appellation of ‘eternal truths’. “* (@boole1854investigations, para 11.5).
+*” The language of common life sanctions this view of the essential connexion of secondary propositions with the notion of time...There are indeed propositions, the truth of which is not thus limited to particular periods or conjunctures; propositions which are true throughout all time, and have received the appellation of ‘eternal truths’. “* (@boole1854investigation, para 11.5).
 
 Although time is often dropped from consideration in many instances;
 
-*” We may here call attention again to the remark, that although the idea of time appears to be an essential element in the theory of the interpretation of secondary propositions, it may practically be neglected as soon as the laws of expression and of interpretation are definitely established.“* (@boole1854investigations, para 11.15).
+*” We may here call attention again to the remark, that although the idea of time appears to be an essential element in the theory of the interpretation of secondary propositions, it may practically be neglected as soon as the laws of expression and of interpretation are definitely established.“* (@boole1854investigation, para 11.15).
 
-Once more Boole uses that is a secondary proposition (X) is true then (X = 1) and likewise (X=0) if the proposition (X) is false  (@boole1854investigations, para 11.11).
+Once more Boole uses that is a secondary proposition (X) is true then (X = 1) and likewise (X=0) if the proposition (X) is false  (@boole1854investigation, para 11.11).
 
 In summary, Boole settles on the distinction between primary and secondary propositions as;
 
-*” We might undoubtedly, have established the theory of Primary Propositions upon the simple notion of space, in the same way as that of secondary propositions has been established upon the notion of time.“* (@boole1854investigations, para 11.16).
+*” We might undoubtedly, have established the theory of Primary Propositions upon the simple notion of space, in the same way as that of secondary propositions has been established upon the notion of time.“* (@boole1854investigation, para 11.16).
 
 Although he immediately backs away from the former;
 
-*” I conceive, therefore, that the idea of space is not essential to the development of a theory of primary propositions,“*  (@boole1854investigations, para 11.16).
+*” I conceive, therefore, that the idea of space is not essential to the development of a theory of primary propositions,“*  (@boole1854investigation, para 11.16).
 
 And now having embraced time, while previously having rejected time as key to secondary propositions, Boole restates his concerns;
 
-*” I was led to interpret the symbol 1 in secondary propositions as the universe of “cases" or “conjunctures of circumstances;" but this view involves the necessity of a definition of what is meant by a “case," or “conjuncture of circumstances;" and it is certain, that whatever is involved in the term beyond the notion of time is alien to the objects, and restrictive of the processes, of formal Logic.“* (@boole1854investigations, para 11.16).
+*” I was led to interpret the symbol 1 in secondary propositions as the universe of “cases" or “conjunctures of circumstances;" but this view involves the necessity of a definition of what is meant by a “case," or “conjuncture of circumstances;" and it is certain, that whatever is involved in the term beyond the notion of time is alien to the objects, and restrictive of the processes, of formal Logic.“* (@boole1854investigation, para 11.16).
 
 
 

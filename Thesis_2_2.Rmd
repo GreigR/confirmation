@@ -149,9 +149,6 @@ And
 
 Boole then, having defined to his satisfaction the link between language, a mark and the pure form of the objects internal mental representation, sets forth to define his algebra.
 
-Without labouring this algebra, Boole argues that simple notations like addition, subtraction, multiplication and division all represent operations of the mind on these objects, with “=” denoting identity  (@boole1854investigation, para 2.4).
-
-
 ## Boole's logical algebra 
 As stated earlier, @boole1854investigation seeks to bridge the gap between words and symbols, built on the preface “that Language is an instrument of human reason (p. 17)” although admitting that some have argued to reason without such an assumption.
 
@@ -224,7 +221,7 @@ Thus for Boole, the dualism between external realism and internal cognitive obje
 
 *“The famous comparison of the universe to a lyre or a bow, its “recurrent harmony" being the product of opposite states of tension, betrays the same origin. In the system of Pythagoras, which seems to have been a combination of dualism with other elements derived from the study of numbers, and of their relations, ten fundamental antitheses are recognised:  finite and infinite, even and odd, unity and multitude, right and left, male and female, rest and motion, straight and curved, light and darkness, good and evil, the square and the oblong ”*  (@boole1854investigation, para 12.7)
 
-Leading to him adopting a position more akin to Plato’s Cave and the theory of forms;
+Leading to him adopting a position more akin to Plato’s Cave and the theory of forms (@cohen2016readings,  Republic VII para 514-517);
 
 *“The unity of all real being, its identity with truth and goodness considered as to their essence; the illusion, the pro-found unreality, of all merely phenomenal existence; such were the views,|such the dispositions of thought, which it chiefly tended to foster. *” (@boole1854investigation, para 12.7)
 
@@ -240,15 +237,15 @@ For Boole then, the cognitive objectives that were manipulated by his algebra we
 
 Boole then clarifies that what is defined is a law of thought and not a law of things;
 
-*”  First, I would remark, that this law is a law of thought, and not, properly speaking, a law of things. Difference in the order of the qualities or attributes of an object, apart from all questions of causation, is a difference in conception merely. The law [xy = yx] expresses as a general truth, that the same thing may be conceived in different ways, and states the nature of that difference; and it does no more than this.  “*
+*”First, I would remark, that this law is a law of thought, and not, properly speaking, a law of things. Difference in the order of the qualities or attributes of an object, apart from all questions of causation, is a difference in conception merely. The law [xy = yx] expresses as a general truth, that the same thing may be conceived in different ways, and states the nature of that difference; and it does no more than this.  “*
 
 And
 
-*”  As a law of thought, it is actually developed in a law of Language, the product and the instrument of thought “*
+*”As a law of thought, it is actually developed in a law of Language, the product and the instrument of thought “*
 
 The third chapter is fascinating given its title *” Derivation Of The Laws Of The Symbols Of Logic From The Laws Of The Operations Of The Human Mind. “*  as it might be seen that Boole used the former to define the later but now wishes to beg the question.
 
-Boole certainly agreed with Hume on [find an appropriate reference] the empiricist view that causation was nothing more than regularity of conjunction between cause and effect, built upon impressions of the external world. With such being key to science;
+Boole certainly agreed with Hume on (@Hume1751) the empiricist view that causation was nothing more than regularity of conjunction between cause and effect, built upon impressions of the external world. With such being key to science;
 
 *”  The object of science, properly so called, is the knowledge of laws and relations. To be able to distinguish what is essential to this end, from what is only accidentally associated with it, is one of the most important conditions of scientific progress… Such questions, for instance, as the existence of a sustaining ground of phenomena, the reality of cause, the propriety of forms of speech implying that the successive states of things are connected by operations, and others of a like nature, may possess a deep interest and significance in relation to science, without being essentially scientific. It is indeed scarcely possible to express the conclusions of natural science without borrowing the language of these conceptions. “*  (@boole1854investigation, para 3.1)
 
@@ -360,6 +357,60 @@ Although he immediately backs away from the former;
 And now having embraced time, while previously having rejected time as key to secondary propositions, Boole restates his concerns;
 
 *” I was led to interpret the symbol 1 in secondary propositions as the universe of “cases" or “conjunctures of circumstances;" but this view involves the necessity of a definition of what is meant by a “case," or “conjuncture of circumstances;" and it is certain, that whatever is involved in the term beyond the notion of time is alien to the objects, and restrictive of the processes, of formal Logic.“* (@boole1854investigation, para 11.16).
+
+## Boole's statistics
+
+Boole built upon Possoin’s definition of probability as;
+
+*” The probability of an event is the reason we have to believe that it has taken place, or that it will take place“*
+
+Or
+
+*” The measure of the probability of an event is the ratio of the number of cases favourable to that event, to the total number of cases favourable or contrary, and all equally possible“*
+
+To give his working definition of probability as;
+
+*” it follows that the word probability, in its mathematical acceptation, has reference to the state of our knowledge of the circumstances under which an event may happen or fail.“* (@boole1854investigation, para 16.2).
+
+But believes that all probability is based on only partial knowledge because;
+
+*” Probability is expectation founded upon partial knowledge. A perfect acquaintance with all the circumstances affecting the occurrence of an event would change expectation into certainty, and leave neither room nor demand for a theory of probabilities. “* (@boole1854investigation, para 16.2).
+
+And starts to build his hypothesis;
+
+*” The rules which we employ in life-assurance, and in the other statistical applications of the theory of probabilities, are altogether independent of the mental phenomena of expectation. They are founded upon the assumption that the future will bear a resemblance to the past; that under the same circumstances the same event will tend to recur with a de nite numerical frequency; not upon any attempt to submit to calculation the strength of human hopes and fears. “* (@boole1854investigation, para 16.3).
+
+That probability theory considers the external imperfect world, Plato’s shadows from the Cave as opposed to their pure mental forms. Before bending his conceptualization back from the probability of occurrence to the probability of an event is true.
+
+*” this form consists in substituting for events the propositions which assert that those events have occurred, or will occur; and viewing the element of numerical probability as having reference to the truth of those propositions, not to the occurrence of the events concerning which they make assertion.“* (@boole1854investigation, para 16.6).
+
+Which by modern sensibilities are not two different positions but each is a simple restatement of the other.
+
+Boole then states the beginning of probability theory, in a style that is consistent with his calculus. This enables him to use his algebra to solve problems of external reality that is analogous to how he resolves laws of internal reality. 
+
+*” Now in the science of pure Logic, which, as such, is conversant only with truth and with falsehood, the above disjunctive and conditional propositions are equivalent. They are true and they are false together. It is seen, however, from the above investigation, that when the disjunctive proposition has a probability p, the conditional proposition has a different and partly indefinite probability cp/1-p+cp . Nevertheless these expressions are such, that when either of them becomes 1 or 0, the other assumes the same value. The results are, therefore, perfectly consistent, and the logical transformation serves to verify the formula deduced from the theory of probabilities. “*  (@boole1854investigation, para 18.8).
+
+While missing concept and their importance of the sample population, other techniques “bootstrapping” are described (@boole1854investigation, para 18.4).
+
+## Boole's causation
+
+Boole focuses on the concept of Cause and Effect;
+
+*” So to apprehend in all particular instances the relation of cause and effect, as to connect the two extremes in thought according to the order in which they are connected in nature (for the modus operandi is, and must ever be, unknown to us), is the final object of science….There is a sphere of thought which comprehends things only as coexistent parts of a universe; but there is also a sphere of thought (Chap. xi.) in which they are apprehended as links of an unbroken, and, to human appearance, an endless chain - as having their place in an order connecting them both with that which has gone before, and with that which shall follow after. In the contemplation of such a series, it is impossible not to feel the pre-eminence which is due, above all other relations, to the relation of cause and effect. “* (@boole1854investigation, para 20.1).
+
+
+*” From the probabilities of causes assigned a priori, or given by experience, and their respective probabilities of association with an effect contemplated, it may be required to determine the probability of that effect“* (@boole1854investigation, para 20.1).
+
+But having established the challenges to his approach with respect to Cause and Effect, Boole then states;
+
+*” I would remark, that although these examples are designed chiefly as illustrations of a method, no regard has been paid to the question of ease or convenience in the application of that method. On the contrary, they have been devised, with whatever success, as types of the class of problems which might be expected to arise from the study of the relation of cause and effect in the more complex of its actual and visible manifestations.“* (@boole1854investigation, para 20.1).
+
+But continues to largely adopt Hume’s regularity theory of causation and considers this from the perspective of the probability that an effect follows the cause. In the examples Boole gave knowledge as to the cause was known a priori. He argues however even when this is not known, then a strong association is inevitable. Boole gives the example of the planets being aligned on the ecliptic plane, which allows authors at the time to conclude there must be a very high probability of a common cause even if it is unknown (then) (@boole1854investigation, para 20.19). Boole makes the sensible caution that for a probability or observation-based theory of causation, theory can never escape the data on which it is based.
+
+Interestingly Boole conjoins his internal and external realities, arguing the whole is greater than the sum of the parts;
+
+*”  One of the first conclusions to which it leads is that of the necessary insufficiency of any data that experience alone can furnish, for the accomplishment of the most important object of the inquiry. But in setting clearly before us the necessity of hypotheses as supplementary to the data of experience, and in enabling us to deduce with rigour the consequences of any hypothesis which may be assumed,“* (@boole1854investigation, para 20.19). 
+
 
 
 

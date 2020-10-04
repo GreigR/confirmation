@@ -1,6 +1,6 @@
 ---
-title: "Thesis Chapter 2.2"
-author: "Dr Greig Russell"
+title: "Thesis Chapter 2"
+author: "Version 0.2"
 date: "6/28/2020"
 output:
   pdf_document: 
@@ -85,11 +85,19 @@ A problem he seeks to resolve through both the adoption and rejection of a duali
 
 *” Now that truth is made manifest in all its generality by reflection upon a single instance of its application. And this is both an evidence that the particular principle or formula in question is founded upon some general law or laws of the mind, and an illustration of the doctrine that the perception of such general truths is not derived from an induction from many instances, but is involved in the clear apprehension of a single instance. In connexion with this truth is seen the not less important one that our knowledge of the laws upon which the science of the intellectual powers rests, whatever may be its extent or its deficiency, is not probable knowledge. For we not only see in the particular example the general truth, but we see it also as a certain truth,{a truth, our confidence in which will not continue to increase with increasing experience of its practical verifications. “*, (@boole1854investigation, para 1.5).
 
+and
+
+*" that they are individual objects of experience themselves; and that the propositions which relate to them are, on account of the imperfection of those objects, but partially true; lastly, that they are intellectual products formed by abstraction from the sensible perceptions of individual things, but so formed as to become, what the individual things never can be, subjects of science, i.e. subjects concerning which exact and general propositions may be affirmed"* (@boole1854investigation, para 22.5).
+
 Here Boole argues for the duality of the cognitive objects being based on the induction from repeated observation and on the clear understanding of a single instance from which a “certain” truth (almost akin to a mathematical proof of a given law) will be derived. As the former only gives a probable or general truth, Boole’s focus is on later “certain” truths as the basis for the Science of Logic.
 
 *” 5. But if the general truths of Logic are of such a nature that when presented to the mind they at once command assent, wherein consists the difficulty of constructing the Science of Logic? Not, it may be answered, in collecting the materials of knowledge, but in discriminating their nature, and determining their mutual place and relation.“*, (@boole1854investigation, para 1.5).
 
 *” Let us define as fundamental those laws and principles from which all other general truths of science may be deduced, and into which they may all be again resolved. Shall we then err in regarding that as the true science of Logic which, laying down certain elementary laws, confirmed by the very testimony of the mind, permits us thence to deduce, by uniform processes, the entire chain of its secondary consequences, and furnishes, for its practical applications, methods of perfect generality? Let it be considered whether in any science, viewed either as a system of truth or as the foundation of a practical art, there can properly be any other test of the completeness and the fundamental character of its laws, than the completeness of its system of derived truths, and the generality of the methods which it serves to establish.“*, (@boole1854investigation, para 1.5).
+
+Boole returns to this later;
+
+*" It has been maintained, that propositions of the class referred to exist in the mind independently of experience, and that those conceptions which are the subjects of them are the imprints of eternal archetypes. With such archetypes, conceived, however, to possess a reality of which all the objects of sense are but a faint shadow or dim suggestion, Plato furnished his ideal world."* (@boole1854investigation, para 22.5).
 
 Having established the primacy of abstractions as the objects of cognition, Boole turns to the central construct of his work;
 
@@ -424,3 +432,4 @@ Interestingly Boole conjoins his internal and external realities, arguing the wh
 
 *”  One of the first conclusions to which it leads is that of the necessary insufficiency of any data that experience alone can furnish, for the accomplishment of the most important object of the inquiry. But in setting clearly before us the necessity of hypotheses as supplementary to the data of experience, and in enabling us to deduce with rigour the consequences of any hypothesis which may be assumed,“* (@boole1854investigation, para 20.19). 
 
+\newpage

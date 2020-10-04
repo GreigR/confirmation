@@ -19,16 +19,28 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 # Introduction
-This chapter will outline George Boole’s central role in the evolution of Information Science in general  and the ontology of information of information in particular. George Boole’s thesis contained two key ideas. That idealized internal mental objects can be represented as a series of abstraction propositions on which algebraic manipulations can be performed to reveal the laws of reason that underpin human thought.
+This chapter will outline George Boole’s central role in the evolution of Information Science in general and the ontology of information of information in particular. George Boole’s thesis contained two key ideas. That idealized internal mental objects can be represented as a series of abstraction propositions on which algebraic manipulations can be performed to reveal the laws of reason that underpin human thought.
 
-For Boole, there is a dualism between these internal mental objects and their external but imperfect manifestations. In this sense, Boole adopted Plato’s dualism and the theory of forms. Where the internal mental objects are the pure state and the external objects are a plurality of imperfect examples. The later is best described by statistics. The former is described by primary and secondary propositions. Where primary propositions describe whether an object does or does not have specific attributes such as size, shape and colour, while secondary attributes describe whether an object exists in a specific time and spec.
+As will be described  George Boole saw his thinking as being a direct descendant from Aristotle’s logic. By the early 19th century, the teaching of Aristotle’s logic was on the wan and only taught at Christ College, Oxford. It was revived through the efforts of Archbishop Whatley, who published a popular text the “Elements of logic”. Aside from saving Aristotle’s teaching, Whatley also considered the nature of the relationship between cognitive objects and their external sensory counterparts.
 
-Boole set forth to prove that both internal mental objects and their external statistical equivalents both can be manipulated by his algebra, which hence must underpin the laws of reason.
+Boole expanded on this work, and as will be discussed later, adopted a position of Platonic dualism. Where internal objects are pure and by definition absolute perfection. The external sensory objects are shadows of this pure form, that are often distorted so can only be described by the use of statistics to manage the variability.
 
-# George Boole
-George Boole (1815 - 1864) was born in Lincoln and died in Cork. He was a self-taught mathematician and educationalist, who was too poor to attend Cambridge (Chap.4, @machale2014life) yet became the foundation professor of mathematics at Cork and a Fellow of the Royal Society (Chap.5, @machale2014life). His work has influenced much of what has followed particularly with regards to Computer Science and logic. He first used the “Universe of Discourse” (p. 30 @boole1854investigation) and the abstract variable type of logical variables is called a Boolean in some computer languages like Pascal (@hayward1986compared).
+This thesis will argue that this platonic dualism got left behind as an unspoken assumption with its implied determinism as the basis for reality in the subsequent development of computational logic, the philosophy of information and the subsequent development of many computer programming paradigms and their subsequent computer languages.
 
-Boole was no means some random savant, emerging from the wilderness to transform academia without access to prior learning. Although he is sometimes portrayed as such, he was very much engaged in the spirit of the age (Chap. 1, @machale2014life). @machale2014life outlines how that Boole’s father, John, was indeed a cobbler, whose business was challenged, which had a significant constraining influence on Boole’s life choices.  The reason for this state of impoverished affairs was that John lacked interest in being a Cobbler. Preferring instead to make optical instruments, and John was a life long learner in science, literature and mathematics. Indeed, even when famous George’s mother regarded his father as being more gifted despite George’s fame (@machale2014life).
+Boole’s algebra is how he proposed that the laws of reason considered both objective pure reality and external subjective reality. It enables insights and the truth to be determined by mathematical reductionism. Key to this was algebra was his “law of duality” that if;
+
+\begin{equation}
+x^ = x
+\end{equation}
+
+Then it is only true if X = 0 or X = 1. Although now universally adopted, it was Boole who allocated “0” to be null or false, and “1” to be truth or existence. He then used this approach to attract values to the propositions that made up his internal pure objects and went onto to show it could also provide the basis for the approach to probability theory and external objects.
+
+Boole goes on to describe the nature of these propositions, which he divides into primary and secondary. Throughout the text, his thinking on the nature and differences between such evolve. The conclusion advanced in this thesis is that in the end, Boole associated the specific attributes of a primary mental object to its primary propositions and whether these primary attributes exist or not in time and space to secondary attributes. Causation is key to Boole's intreptation of probability and Boole adopts a position sympathetic to Hume's regularity as the basis for causation.
+
+# George Boole - a brief biography
+George Boole (1815 - 1864) was born in Lincoln and died in Cork. He was a self-taught mathematician and educationalist, who was too poor to attend Cambridge (@machale2014life, Chap. 4) yet became the foundation professor of mathematics at Cork and a Fellow of the Royal Society (@machale2014life, Chap. 5). His work has influenced much of what has followed particularly with regards to Computer Science and logic. He first used the “Universe of Discourse” (@boole1854investigation, p. 30) and the abstract variable type of logical variables is called a Boolean in some computer languages like Pascal (@hayward1986compared).
+
+Boole was no means some random savant, emerging from the wilderness to transform academia without access to prior learning. Although he is sometimes portrayed as such, he was very much engaged in the spirit of the age (@machale2014life, Chap. 1). @machale2014life goes on to outline how that Boole’s father, John, was indeed a cobbler, whose business was financially challenged, which had a significant constraining influence on Boole’s life choices as the mythology outlines.  The reason for this state of impoverished fiscal affairs was that John lacked interest in being a Cobbler. John prefered instead to make optical instruments, and he was a life long learner in science, literature and mathematics. Indeed, even when her son was famous, George’s mother regarded her husband as being more gifted than her son (@machale2014life).
 
 As a child, George was fascinated with mathematics and other “abstract” subjects. His father taught George the joy of practical science through the family telescope and his father’s love of astronomy. However, George had a broad reach of interests including the humanities, arts and sports but was by nature a quiet, retiring, man (@machale2014life). It was George’s interests in the humanities that first drew his brilliance to public attention, although his father’s financial situation limited his choices, George attended a period of secondary education and supplemented this by learning several European languages. This enabled George to stay abreast of academic learnings in Europe (@machale2014life).
 
@@ -330,6 +342,7 @@ Although Boole did acknowledge that for his algebra for both would be similar;
 *” The investigation upon which we are entering will, in its general order and progress, resemble that which we have already conducted. The two inquiries differ as to the subjects of thought which they recognise, not as to the formal and scientific laws which they reveal, or the methods or processes which are founded upon those laws.“* (@boole1854investigation, para 11.1).
 
 And 
+
 *” The discussion of the theory of Secondary Propositions is in the next place interesting, from the close and remarkable analogy which it bears with the theory of Primary Propositions. It will appear, that the formal laws to which the operations of the mind are subject, are identical in expression in both cases. The mathematical processes which are founded on those laws are, therefore, identical also.“* (@boole1854investigation, para 11.4).
 
 Where they differ for Boole was.
@@ -410,13 +423,4 @@ But continues to largely adopt Hume’s regularity theory of causation and consi
 Interestingly Boole conjoins his internal and external realities, arguing the whole is greater than the sum of the parts;
 
 *”  One of the first conclusions to which it leads is that of the necessary insufficiency of any data that experience alone can furnish, for the accomplishment of the most important object of the inquiry. But in setting clearly before us the necessity of hypotheses as supplementary to the data of experience, and in enabling us to deduce with rigour the consequences of any hypothesis which may be assumed,“* (@boole1854investigation, para 20.19). 
-
-
-
-
-
-
-
-
-
 

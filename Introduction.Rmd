@@ -35,7 +35,7 @@ Since the 1950s, the focus of innovation shifted to the development of the silic
 ![The Descendents of Boole](Desc_of_Boole.png)
 
 ## Boole
-George Boole (1815 - 1816) and his “An investigation of the laws of thought” (@1854investigation) is often regarded as the start of the information age (@nahin2017logician) and sometimes this work is also regarded as the commencement of modern logic (@hughes1968introduction). Boole saw the subject of his book as being on how classical logic underpinned reasoning and the laws of thought. Although later authors have reinterpreted Boole in light of subsequent theoretical developments (@douglas2020set, @brown2012boolean). Throughout the "The laws of thought", Boole overtly saw his study as being very much part of the revivalist movement in the early 19th century and is built on the wildly popular work of ArchBishop Whatley (@whately1826elements).
+George Boole (1815 - 1816) and his “An investigation of the laws of thought” (@boole1854investigation) is often regarded as the start of the information age (@nahin2017logician) and sometimes this work is also regarded as the commencement of modern logic (@hughes1968introduction). Boole saw the subject of his book as being on how classical logic underpinned reasoning and the laws of thought. Although later authors have reinterpreted Boole in light of subsequent theoretical developments (@douglas2020set, @brown2011boolean). Throughout the "The laws of thought", Boole overtly saw his study as being very much part of the revivalist movement in the early 19th century and is built on the wildly popular work of ArchBishop Whatley (@whately1826elements).
 
 Boole took an overtly Neoplatonist position on the objects of cognition and the external objects of perception. The former was the true form on which his logic of reasoning would operate.
 
@@ -55,13 +55,33 @@ The other concept that Boole was “the Universe of Discourse”, specifically w
 
 As will be elaborated later, the above is the basis for the formation rules of Boole’s logic and encapsulates the semantic meaning in a well-formed formula (wff). His calculus then allows the transformation through the manipulation of such wff to allow core insights akin to cognition to be revealed.
 
+## Frege
+If Boole’s focus was on logic as being a vehicle to understand thought then Gottlieb Frege (1848-1925) considered logic as a means to understand mathematics. His insight was that underpinning all of mathematics in general and arithmetic, in particular, was logic.
+
+Frege argued that all mathematical objects were members of sets, and that all of arthritic could be reduced to set theory. Addition of the conjunction of two separate sets, subtraction the disjunction between a set containing two sets.
+
+Frege developed his logicism that is now seen as the foundation of modern second-order logic. This thesis will use the modern notion, as Frege’s notation is both confusing and equivalent (@sep-frege). One important aspect of Frege’s logicism is the use of functions. Although within his logicism, this is more notational than of significant, the importance will be revisited with the later discussion of Church’s lambda calculus. hence;
+
+\begin{equation}
+F(x^2, 2) = 4
+\end{equation}
+
+Which is to be read as 2 is applied to the function $x^2$ with consequent result of 4. Frege also would argue that the above equation also maps onto “The True” as indeed $2^2 = 4$, but all other values of “x” would map onto the “The False”, where;
+
+\begin{equation}
+True =_{df}  H(a) \rightarrow H(a) 
+\end{equation}
+
+\begin{equation}
+False =_{df} H(a) \rightarrow H(b)
+\end{equation}
+
+In modern predicate calculus, the concept of the Frege's function, has become a predicate of an object x which has a truth value. So the true statement that “Socretes is mortal” or $F(Mortal, Socrates) \rightarrow True$ becomes $Ms \rightarrow True$, with the truth value being derived from the famous soliloquism. 
+
+Frege also introduced two key new terms. “For every x” ($\forall(x)$) and “For at least one x” ($\exists(x)$). Hence the phrase "All men are mortal" is the eqivalent of $\forall(men)(Mortal_{men})$ or $\forall(m)(Mm)$.
 
 # Random equations of no significance
 These are just here to prove (to myself) that it is possible to produce both mathematical and logical symbols.
-
-\begin{equation}
-(\exists x) (Px \rightarrow Lx)
-\end{equation}
 
 \begin{equation}
 \Box p \supset \Diamond p

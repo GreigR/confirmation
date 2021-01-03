@@ -1,0 +1,98 @@
+---
+title: "Introduction and overview"
+author: "Greig Russell"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+header-includes:
+   - \usepackage{amsthm}
+   - \usepackage{setspace}
+output: 
+  pdf_document:
+    toc: true
+    toc_depth: 2
+    number_section: true
+    citation_package: natbib
+fontsize: 12pt
+bibliography: Reference.bib
+link-citations: yes
+lof: true
+---
+\doublespacing
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(knitr)
+```
+
+# Introduction
+
+## Chapter 1 - Quine
+You might have thought that in the information age that the ontology of information was a solved problem. So that there is a common understanding of what it is to be information. Often seen is the confabulation of the meaning of the word “information” with either raw data or personal opinion. As will be discussed below, this thesis takes an ontological position, based on Quine (-@quine1948there) “On What There Is”, that data is transformed into information by a particular knowledge paradigm. This thesis then considers several such paradigms from the dawn of the information age. What will be shown is that the meaning of Information becomes increasingly abstracted over the late 19th and early 20th centuries.  Following the development of Symbolic Logic and Number theory over this time period. What emerges is that the usage of the term “information” becomes increasingly both abstracted and quantised—the term referring to the packets of information themselves rather than the contents of the packages. A meaning dissociated from the implication that information is applying knowledge to raw data. In this thesis, each of the discussed ontologies of information and their constraining theories serves as one basis of the information age.
+
+@quine1948there addresses the issue of what there is from the position of what there is not. Quine uses the vehicles of either “the Pegasus” or “Plato’s beard” to discuss the paradox of refuting that which does not exist from the position of accepting that it inherently does exist through naming it (@quine1948there). Quine claims that to resolve this paradox through either of two vehicles.
+
+The first is through the use of Russell’s theory of descriptions from Russell’s famous paper “On denoting” (@russell1905denoting). For Quine, the approach shifts from a name to a description, which can be refuted or accepted. Key to this approach is the shift from the name being the objective reference to a bound variable or generic quantification terms that imply something in general but nothing in particular (@quine1948there). The second approach is to distinguish between names and meaning. Quine borrows Frege’s difference between the Morning and Evening stars, both of which are the planet Venus (@frege1966translations p.57). The argument is that the respective “stars” ‘ names do not imply either a star or the planet, Venus. Equally, for Quine, “meaning” is an idea that does not mean the existence of the named object (@quine1948there). So I can see a planet in the morning or evening sky, does not infer that it is Venus or that I will mistake it for a star. It is doubtful that I will do either given the low luminosity of the alternatives. Hence meaning does not imply a specific universal in the same way as a name (@quine1948there). A pegasus is a winged horse, is the meaning of the term pegasus. That Bellerophon is a pegasus and is the name of a particular instance of pegasus. 
+
+Regardless of which vehicle used, for Quine (-@quine1948there) it is the scope of these bound variables or universals that defines the scope of the semantic ontology, often paraphrased to $\exists x A(x)$. Quine himself pulls back from the overview that “to be is the value of a variable” as he feels this simplification opens the door to new problems on the nature of a variable. Quine posits two “realities” a mathematical one and a physics one, claiming scepticism about both (@quine1948there). In 1948, quantum physics was still a matter of debate with sceptics including Einstein, but it undermined Newtonian determinism as it challenged Einstein’s Special relativity. The attempt to resolve the latter continues some 80 years later. In the 1940s, mathematics had similar struggles with Godel’s incompleteness theorem and Russell’s paradox challenging set theory (@quine1948there).  The proposed solutions by Zermelo & Fraenkel, Von Neumann, were still open to debate (@pinter2014book pp 1-19). 
+
+Pertinent to this thesis is Quine’s (-@quine1948there) distinction between the historical position of conceptualism and realism or logicism.  In conceptualism, one reveals the nature of external reality as our “perceptions of external reality” is a mind-dependent rationalisation of sense derived data. In realism or logicism, reality exists and discovered through investigation (@quine1948there). Conceptualisation equates to a mathematical position on ontology and the logicism or realism perspective with the physics position. 
+
+This thesis will adopt the realist position, accepting Quine’s objections or concerns. While quantum physics debates continue, and a quantum theory of gravity remains elusive, quantum physics’s empirical reality is undeniable. Quantum physics and its basis in probability enables the explanation or prediction of phenomena that determinism-based theories like classical physics can not. Godel’s incompleteness theorem and its consequences remain unresolved, more accepted, even as initially by Bohr and later by Santilli addressed Einstein’s concerns. 
+
+This thesis’s underlying assumption is that data derives from some aspect of an external reality. By applying a theory of knowledge, with its inherent position on ontology, this raw data becomes information that enables the theory to provide explanations or make predictions. 
+
+## Chapter 2 - Boole
+
+Chapter 2 will consider Boole’s algebra as described in his 1854 work “An investigation of the laws of thought on which are founded the mathematical theories of logic and probability” (@boole1854investigation).  Boole will present as the last of Victorian revivalists for Aristotle’s logic, rather than as the bridge between the classical and modern logic’s development. Boole aimed to show that his algebra applied to the mind’s pure ideas as it was to nature’s diversity. 
+
+Boole divided objects of cognition into primary and secondary propositions (@boole1854investigation Chapter 4). Primary propositions are categorical descriptions of properties that may or may not apply to an object. Adopting a Neoplatonic position for Boole, the primary properties would include being a sheep (having the form of a sheep), having white wool and crying “baa” as three distinct categorical values. Each is either True or False. Boole saw a cognitive proposition as an algebraic expression with mathematical operators describing the relationship between symbolic representations of the categorical variables with a truth value. Performing algebraic simplifications and manipulations revealed the objective “truth” value of the proposition (@boole1854investigation). To Frege’s scepticism, Boole’s secondary propositions added categories relating to time and space to his ontology. Uniquely among the work’s considered in this thesis, Boole recognised that nature was inherently probabilistic. What Boole attempted to show was that his algebra applied equally to such.
+
+Although subsequent authors like Frege (@frege1979posthumous) and Hailperin (@hailperin1986boole) criticised Boole’s original algebra and others like Porstsky (@brown2003boolean) or Blake (@blake1938canonical) extended or corrected the original algebra, Boole remains a crucial figure in contemporary computer science for two key reasons. Boole’s Algebra underpins the modern Central Processor Unit’s development and the logic gates that enable automated computations. Secondly, the symbolic representations of categorical variables and their relationships are the key to modern data warehouses. Boole’s original algebra’s contemporary equivalents are database languages like SQL, which control how data is stored but most importantly, selectively retrieved from these large data stores using a version of propositional logic. In such systems there are no universal quantifiers or need for a universe of discourse. The boundaries of the analysis being that of the data table stored with the computer’s available memory.
+
+## Chapter 3 - Frege
+
+Chapter 3 will consider the contributions of Gottlob Frege, who is the start of modern predicate logic. Frege’s contributions are a coherent whole as such. Instead, they are a series of articles and presentations that make up his interrelated corpus. 
+
+Frege’s focus was on analysing language, especially words, instead of Boole’s focus on thoughts. In his 1892 paper “On Sense and Reference” (@frege1966translations, pp 50-78) moved beyond Boole’s Neoplatonic or categorical position. Frege was interested in equivalence, considering the difference between a=a, which is trivial and a=b, which is not. When considering only proper names or nouns, the latter can only be true if they are the same, yet they are not identical but are equivalent by having different terms or tokens. Frege proposed the difference between the sense of a word and the reference of a word. With the example being the morning star and the evening star. They have a very different sense as they don’t refer to the same experience, but the same reference because they are both manifestations of the planet Venus. Often the sense of a word is a substitute for the indirect reference as if we say the Morning star while understanding that it means Venus. Frege then expanded his concept to include whole sentences containing a single thought with a truth value based on its reference. He designated the result as being either “the Truth” or “the False” as appropriate.
+
+By this approach, Frege moved his Boole’s Neoplatonic realist paradigm to one of increasing abstraction as the “word” with its sense and reference took precedence over the sense derived “idea. For Frege, both the sense and reference of a word are different from the idea they generate.  The idea caused by the word is a private, individual concept that reflects the observer’s background as it does the word’s sense. While a thought or idea might be idiomatic and even transitory, it will indeed not obey any grammar in the sense that a formal language will. 
+
+In Begriffsschrift, Frege outlines what we would now call predicate logic (@frege1966translations pp 1-20). Building upon his earlier Grundlagen der Arthrmetik Frege described an approach to formal logic to underpin a language’s semantics study. Although the nomenclature is very different from the modern version, the critical aspects of modern second-order logic are present. 
+
+Frege also considers the nature of the function in a fuller fashion than Boole. For Boole (@boole1854investigation, pp 51-52) a function is a process to transform a variable, which can only take the values of “0” or “1” so lending itself to mathematic reduction and for Boole logical clarification. Frege’s conceptualisation of a function was quite different (@frege1966translations, pp 107-116). A function was the set of variables, say x & y, which were members of a set which were true, for the applicable mapping function. This evolution in the concept of a function becomes more important when considering the works of Church.
+
+## Chapter 4 - Church
+
+Chapter 4 will consider Alonso Church’s works, who, depending on the audience, is best known as the supervisor of Alan Turing’s PhD or the creation of lambda calculus. Chapter 5 will consider Alan Turning’s contributions to the ontology of information.
+
+Lambda calculus focuses intensely on the meaning of a function and the consequences of that definition (@church1944calculi). Church’s elegance is his simplicity. A function is the “rule of correspondence” so something, a class of arguments, is given and another thing, the class or range of the dependent variable, is obtained. The function is the mapping between the two. Of note, the class of arguments for a function can be other functions (@church1944calculi Chapter 1). Church’s calculi of lambda conversion allow the symbolic representation of this conceptualisation of functions. Lambda calculus only three fundamental premises from which all else is derived (@rojas2015tutorial);
+
+1. x is a variable such as a function
+2. $\lambda m.n$ is the abstraction rule of a function, where x is applied to the generic function $\lambda$ and returns m, with the whole being described as the lambda expression.
+3. $(m.n)$ is the application rule, where both m and n are lambda expressions.
+
+And the concept of everything else is derived from these rules includes Church’s conceptualisations of the natural numbers. One is the successor to Zero, and Two is the successor to One, which is the successor of zero (@church1933set). Of note this so “Church encoding” was one part of Church’s broader ontological conceptualisation.
+
+Frege described that
+
+\begin{quotation}
+Hardly anything more unfortunate can befall a scientific writer than to have one of the foundations of his edifice shaken after the work is finished.
+
+This was the position I was placed in by a letter of Mr. Bertrand Russell, just when the printing of this volume was nearing its completion. It is the matter of my Axion (V).
+\end{quotation}
+\flushright (@frege1966translations p.234)
+\flushleft
+
+The impact of Russell’s logical paradox on naive set theory was profound and inescapable (@pinter2014book pp 3-4). Frege’s reply to Russell raised challenges with one potential solution in set theory (@frege1966translations p.234). Russell advanced type theory as a possible way forward (@sep-type-theory). In 1940 Church described his simple type theory (@church1940formulation) and then later expanded on his formulation (@henle1951structure, Chap. 1). As Coquand describes (@sep-type-theory), Church describes a typed version of his lambda calculus. Church outlines his standard types of individuals, propositions, and important to prevent self-reference that a type of object-types. To this, he added a type of functions and a type of functionals. Church was now able to abstract the logic of types and their interrelationships with lambda calculus while discharging Russell’s paradox and avoiding Frege’s concerns about classes. The consequence of which was Church transformed Frege’s conceptualisation of a formula (@henle1951structure p. 4). Church doubted that Frege would accept his new formulation.
+
+Church’s naive type theory represents the total abstraction data. Information is now the functional relationships between the symbolic representations. No longer was information confined to a point in time or space. Instead, it was generalisable and universal and based on the universal truths of mathematics. This stance is one that Frege would have approved of (@frege1979posthumous p. 15). 
+
+## Chapter 5 - Turing \& Shannon
+Chapter 5 will briefly consider both Turing and Shannon’s contributions to our understanding of information’s ontology. These two remarkable men established the modern framework of the information age. Both were code-breakers during WW2, both made significant pre-war contributions to the development of computers.
+
+Turing, unsurprisingly as Church’s pupil, adopted a similar approach to his mentor in solving the Entscheidungsproblem or the “halting problem” as it more commonly referred to as (@turing1937computable). In the definition of the modern Turing machine, data was relegated to the paper tape on which the machine itself performed operations with information being the remainder after the process (hopefully) halted.
+
+As a communication engineer in the telecommunications industry, Shannon focuses on sending long-distance telegrams, further abstracted information into packets of information. He then considered the frequency distribution of these packets as a function of the contents. Shannon determined that the content’s importance was related to the dispatch frequency, but not necessarily the contents’ truthfulness (@shannon1948mathematical).
+
+## Chapter 6 - Conclusion
+Chapter 6 is the conclusion. It will highlight how the ontology of information started in 1854 as being derived from data by knowledge. By the late 1940s information was an abstracted, quantised entity on which automated operations are automatically performed. The linkage between knowledge and the transformation of data to information is broken or at best implied. It is little wonder then that technology industry has struggled to manage the rise of “fake news” and “conspiracy theories” as such requires a consideration of the message content. 
+
+\newpage
